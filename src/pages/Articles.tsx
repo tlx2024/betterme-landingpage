@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import { localMedia } from '../assets/localMedia';
 
 export const Articles = () => {
   const [activeTab, setActiveTab] = useState('全部');
@@ -9,42 +10,42 @@ export const Articles = () => {
     {
       title: "减脂期间如何吃早餐？",
       tag: "饮食指南",
-      img: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&h=400&fit=crop",
+      img: localMedia.articles.breakfast,
       author: "BetterMe",
       views: "5320"
     },
     {
       title: "力量训练 vs 有氧，哪个更减脂？",
       tag: "运动训练",
-      img: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&h=400&fit=crop",
+      img: localMedia.articles.workout,
       author: "BetterMe",
       views: "4120"
     },
     {
       title: "平台期怎么办？6 个有效突破方法",
       tag: "减脂知识",
-      img: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop",
+      img: localMedia.articles.plateau,
       author: "BetterMe",
       views: "6320"
     },
     {
       title: "晚餐怎么吃不胖？减脂晚餐指南",
       tag: "饮食指南",
-      img: "https://images.unsplash.com/photo-1490818387583-1b5ba4524be6?w=600&h=400&fit=crop",
+      img: localMedia.articles.dinner,
       author: "BetterMe",
       views: "3120"
     },
     {
       title: "每天走多少步可以减脂？",
       tag: "习惯养成",
-      img: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop",
+      img: localMedia.articles.steps,
       author: "BetterMe",
       views: "4520"
     },
     {
       title: "如何建立可持续的健康习惯？",
       tag: "习惯养成",
-      img: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop",
+      img: localMedia.articles.habits,
       author: "BetterMe",
       views: "5200"
     }
@@ -64,9 +65,8 @@ export const Articles = () => {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-5 py-2 rounded-full text-sm font-medium transition-all relative ${
-                activeTab === tab ? 'text-teal-600' : 'text-slate-500 hover:text-slate-800 bg-transparent'
-              }`}
+              className={`px-5 py-2 rounded-full text-sm font-medium transition-all relative ${activeTab === tab ? 'text-teal-600' : 'text-slate-500 hover:text-slate-800 bg-transparent'
+                }`}
             >
               {activeTab === tab && (
                 <motion.div

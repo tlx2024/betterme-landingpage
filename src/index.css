@@ -1,1 +1,166 @@
 @import "tailwindcss";
+
+:root {
+    --bm-green: #208752;
+    --bm-ink: #111827;
+    --bm-glass-border: rgba(255, 255, 255, 0.68);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:
+        radial-gradient(circle at 12% 8%, rgba(232, 247, 238, 0.62), transparent 34rem),
+        radial-gradient(circle at 88% 3%, rgba(255, 242, 218, 0.52), transparent 30rem),
+        #fbfdfc;
+}
+
+.bm-glass-nav {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.66));
+    border-bottom: 1px solid rgba(223, 238, 229, 0.78);
+    box-shadow: 0 18px 48px rgba(31, 82, 50, 0.08);
+    backdrop-filter: blur(22px) saturate(1.22);
+    -webkit-backdrop-filter: blur(22px) saturate(1.22);
+}
+
+.bm-nav-pill {
+    position: relative;
+    overflow: hidden;
+}
+
+.bm-nav-pill::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translateX(-120%);
+    background: linear-gradient(110deg, transparent, rgba(255, 255, 255, 0.48), transparent);
+    transition: transform 0.7s ease;
+}
+
+.bm-nav-pill:hover::before {
+    transform: translateX(120%);
+}
+
+.bm-page-hero {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background:
+        linear-gradient(180deg, rgba(248, 253, 250, 0.96), rgba(255, 255, 255, 0.76) 54%, rgba(248, 253, 250, 0.98)),
+        radial-gradient(circle at 8% 26%, rgba(232, 247, 238, 0.9), transparent 30rem),
+        radial-gradient(circle at 92% 18%, rgba(255, 241, 216, 0.72), transparent 32rem);
+}
+
+.bm-page-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image:
+        linear-gradient(rgba(32, 135, 82, 0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(32, 135, 82, 0.045) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: linear-gradient(90deg, transparent, #000 18%, #000 82%, transparent);
+}
+
+.bm-hero-shell {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--bm-glass-border);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.36));
+    box-shadow: 0 30px 90px rgba(28, 82, 48, 0.1);
+    backdrop-filter: blur(22px) saturate(1.14);
+    -webkit-backdrop-filter: blur(22px) saturate(1.14);
+}
+
+.bm-hero-shell::after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(110deg, transparent 0%, rgba(255, 255, 255, 0.36) 42%, transparent 58%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.36), transparent 38%);
+    mix-blend-mode: screen;
+    animation: bm-sheen 8s ease-in-out infinite;
+}
+
+.bm-hero-copy {
+    animation: bm-rise 0.86s cubic-bezier(.22, 1, .36, 1) both;
+}
+
+.bm-glass-card {
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.44));
+    box-shadow: 0 22px 58px rgba(38, 78, 55, 0.13);
+    backdrop-filter: blur(18px) saturate(1.16);
+    -webkit-backdrop-filter: blur(18px) saturate(1.16);
+}
+
+.bm-float-card {
+    animation: bm-float 6.5s ease-in-out infinite;
+}
+
+.bm-float-card:nth-of-type(2n) {
+    animation-delay: -1.8s;
+}
+
+.bm-float-card:nth-of-type(3n) {
+    animation-delay: -3.2s;
+}
+
+.bm-soft-reveal {
+    animation: bm-rise 0.8s cubic-bezier(.22, 1, .36, 1) both;
+}
+
+@keyframes bm-float {
+    0%, 100% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(0, -12px, 0);
+    }
+}
+
+@keyframes bm-rise {
+    from {
+        opacity: 0;
+        transform: translateY(22px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bm-sheen {
+    0%, 64%, 100% {
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+    78% {
+        opacity: 0.76;
+        transform: translateX(22%);
+    }
+}
+
+img[src*="/media/avatar-"],
+img[src*="/media/scene-"],
+img[src*="/media/portrait-lily"],
+img[src*="/lily/cuts/"],
+img[src*="/ann/cuts/"] {
+    filter: saturate(0.94) contrast(1.02) drop-shadow(0 20px 36px rgba(32, 135, 82, 0.08));
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
+}

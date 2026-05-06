@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldCheck, Target, Globe2, Lightbulb } from 'lucide-react';
+import { localMedia } from '../assets/localMedia';
 
 export const About = () => {
   const stats = [
@@ -19,7 +20,7 @@ export const About = () => {
   return (
     <div className="bg-white min-h-screen pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="text-center mb-16">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">关于 BetterMe</h1>
           <p className="text-slate-500 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
@@ -31,15 +32,15 @@ export const About = () => {
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center lg:items-stretch mb-24">
           <div className="flex-1 w-full relative min-h-[400px]">
             <div className="absolute inset-0 bg-slate-100 rounded-[2.5rem] overflow-hidden">
-               {/* Note: I am using an abstract team image as a placeholder for the large team portrait shown in the original art. */}
-               <img 
-                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop" 
-                 alt="Team" 
-                 className="w-full h-full object-cover"
-               />
+              {/* Note: I am using an abstract team image as a placeholder for the large team portrait shown in the original art. */}
+              <img
+                src={localMedia.scenes.team}
+                alt="Team"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
-          
+
           <div className="w-full lg:w-72 flex flex-col justify-center gap-10">
             {stats.map((stat, idx) => (
               <div key={idx}>
@@ -62,7 +63,7 @@ export const About = () => {
             </div>
           ))}
         </div>
-        
+
       </div>
     </div>
   );

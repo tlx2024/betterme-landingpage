@@ -1,0 +1,234 @@
+import { createHotContext as __vite__createHotContext } from "/@vite/client";import.meta.hot = __vite__createHotContext("/src/App.tsx");import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=9a81c106"; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
+import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=9a81c106"; const Suspense = __vite__cjsImport1_react["Suspense"]; const lazy = __vite__cjsImport1_react["lazy"];
+import { BrowserRouter, Routes, Route } from "/node_modules/.vite/deps/react-router-dom.js?v=9a81c106";
+import { Navbar } from "/src/components/Navbar.tsx";
+import { FooterSection } from "/src/components/Footer.tsx";
+const HomePage = lazy(_c = () => import("/src/pages/Home.tsx").then((module) => ({ default: module.HomePage })));
+_c2 = HomePage;
+const FeaturesPage = lazy(_c3 = () => import("/src/pages/Features.tsx?t=1778023803506").then((module) => ({ default: module.FeaturesPage })));
+_c4 = FeaturesPage;
+const SolutionsPage = lazy(_c5 = () => import("/src/pages/Solutions.tsx?t=1778023803507").then((module) => ({ default: module.SolutionsPage })));
+_c6 = SolutionsPage;
+const About = lazy(_c7 = () => import("/src/pages/About.tsx").then((module) => ({ default: module.About })));
+_c8 = About;
+const Articles = lazy(_c9 = () => import("/src/pages/Articles.tsx").then((module) => ({ default: module.Articles })));
+_c0 = Articles;
+const AiAssistant = lazy(_c1 = () => import("/src/pages/AiAssistant.tsx").then((module) => ({ default: module.AiAssistant })));
+_c10 = AiAssistant;
+const AICustomizePage = lazy(_c11 = () => import("/src/pages/AICustomize.tsx?t=1778023803515").then((module) => ({ default: module.AICustomizePage })));
+_c12 = AICustomizePage;
+const PricingPage = lazy(_c13 = () => import("/src/pages/Pricing.tsx?t=1778023803515").then((module) => ({ default: module.PricingPage })));
+_c14 = PricingPage;
+const DownloadPage = lazy(_c15 = () => import("/src/pages/Download.tsx?t=1778023803516").then((module) => ({ default: module.DownloadPage })));
+_c16 = DownloadPage;
+const Help = lazy(_c17 = () => import("/src/pages/Help.tsx").then((module) => ({ default: module.Help })));
+_c18 = Help;
+const StoriesPage = lazy(_c19 = () => import("/src/pages/Stories.tsx?t=1778023803509").then((module) => ({ default: module.StoriesPage })));
+_c20 = StoriesPage;
+const RouteFallback = () => /* @__PURE__ */ jsxDEV("main", { className: "min-h-[60vh] flex items-center justify-center px-4", children: /* @__PURE__ */ jsxDEV("div", { className: "text-center", children: [
+  /* @__PURE__ */ jsxDEV("div", { className: "w-10 h-10 rounded-full border-2 border-[#208752]/20 border-t-[#208752] animate-spin mx-auto mb-4" }, void 0, false, {
+    fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+    lineNumber: 21,
+    columnNumber: 7
+  }, this),
+  /* @__PURE__ */ jsxDEV("p", { className: "text-sm font-medium text-gray-500", children: "正在加载页面..." }, void 0, false, {
+    fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+    lineNumber: 22,
+    columnNumber: 7
+  }, this)
+] }, void 0, true, {
+  fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+  lineNumber: 20,
+  columnNumber: 5
+}, this) }, void 0, false, {
+  fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+  lineNumber: 19,
+  columnNumber: 1
+}, this);
+_c21 = RouteFallback;
+export default function App() {
+  return /* @__PURE__ */ jsxDEV(BrowserRouter, { children: /* @__PURE__ */ jsxDEV("div", { className: "font-sans antialiased text-gray-900 bg-white min-h-screen selection:bg-[#208752]/20 selection:text-[#208752]", children: [
+    /* @__PURE__ */ jsxDEV(Navbar, {}, void 0, false, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+      lineNumber: 31,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ jsxDEV(Suspense, { fallback: /* @__PURE__ */ jsxDEV(RouteFallback, {}, void 0, false, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+      lineNumber: 32,
+      columnNumber: 29
+    }, this), children: /* @__PURE__ */ jsxDEV(Routes, { children: [
+      /* @__PURE__ */ jsxDEV(Route, { path: "/", element: /* @__PURE__ */ jsxDEV(HomePage, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 34,
+        columnNumber: 38
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 34,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { path: "/about", element: /* @__PURE__ */ jsxDEV(About, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 35,
+        columnNumber: 43
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 35,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { path: "/articles", element: /* @__PURE__ */ jsxDEV(Articles, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 36,
+        columnNumber: 46
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 36,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { path: "/ai-assistant", element: /* @__PURE__ */ jsxDEV(AiAssistant, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 37,
+        columnNumber: 50
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 37,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { path: "/features", element: /* @__PURE__ */ jsxDEV(FeaturesPage, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 38,
+        columnNumber: 46
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 38,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { path: "/solutions", element: /* @__PURE__ */ jsxDEV(SolutionsPage, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 39,
+        columnNumber: 47
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 39,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { path: "/stories", element: /* @__PURE__ */ jsxDEV(StoriesPage, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 40,
+        columnNumber: 45
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 40,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { path: "/ai-customize", element: /* @__PURE__ */ jsxDEV(AICustomizePage, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 41,
+        columnNumber: 50
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 41,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { path: "/help", element: /* @__PURE__ */ jsxDEV(Help, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 42,
+        columnNumber: 42
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 42,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { path: "/pricing", element: /* @__PURE__ */ jsxDEV(PricingPage, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 43,
+        columnNumber: 45
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 43,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { path: "/download", element: /* @__PURE__ */ jsxDEV(DownloadPage, {}, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 44,
+        columnNumber: 46
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+        lineNumber: 44,
+        columnNumber: 13
+      }, this)
+    ] }, void 0, true, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+      lineNumber: 33,
+      columnNumber: 11
+    }, this) }, void 0, false, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+      lineNumber: 32,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ jsxDEV(FooterSection, {}, void 0, false, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+      lineNumber: 47,
+      columnNumber: 9
+    }, this)
+  ] }, void 0, true, {
+    fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+    lineNumber: 30,
+    columnNumber: 7
+  }, this) }, void 0, false, {
+    fileName: "D:/0workspace/repo/betterme-landingpage/src/App.tsx",
+    lineNumber: 29,
+    columnNumber: 5
+  }, this);
+}
+_c22 = App;
+var _c, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c0, _c1, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22;
+$RefreshReg$(_c, "HomePage$lazy");
+$RefreshReg$(_c2, "HomePage");
+$RefreshReg$(_c3, "FeaturesPage$lazy");
+$RefreshReg$(_c4, "FeaturesPage");
+$RefreshReg$(_c5, "SolutionsPage$lazy");
+$RefreshReg$(_c6, "SolutionsPage");
+$RefreshReg$(_c7, "About$lazy");
+$RefreshReg$(_c8, "About");
+$RefreshReg$(_c9, "Articles$lazy");
+$RefreshReg$(_c0, "Articles");
+$RefreshReg$(_c1, "AiAssistant$lazy");
+$RefreshReg$(_c10, "AiAssistant");
+$RefreshReg$(_c11, "AICustomizePage$lazy");
+$RefreshReg$(_c12, "AICustomizePage");
+$RefreshReg$(_c13, "PricingPage$lazy");
+$RefreshReg$(_c14, "PricingPage");
+$RefreshReg$(_c15, "DownloadPage$lazy");
+$RefreshReg$(_c16, "DownloadPage");
+$RefreshReg$(_c17, "Help$lazy");
+$RefreshReg$(_c18, "Help");
+$RefreshReg$(_c19, "StoriesPage$lazy");
+$RefreshReg$(_c20, "StoriesPage");
+$RefreshReg$(_c21, "RouteFallback");
+$RefreshReg$(_c22, "App");
+import * as RefreshRuntime from "/@react-refresh";
+const inWebWorker = typeof WorkerGlobalScope !== "undefined" && self instanceof WorkerGlobalScope;
+if (import.meta.hot && !inWebWorker) {
+  if (!window.$RefreshReg$) {
+    throw new Error(
+      "@vitejs/plugin-react can't detect preamble. Something is wrong."
+    );
+  }
+  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {
+    RefreshRuntime.registerExportsForReactRefresh("D:/0workspace/repo/betterme-landingpage/src/App.tsx", currentExports);
+    import.meta.hot.accept((nextExports) => {
+      if (!nextExports) return;
+      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate("D:/0workspace/repo/betterme-landingpage/src/App.tsx", currentExports, nextExports);
+      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);
+    });
+  });
+}
+function $RefreshReg$(type, id) {
+  return RefreshRuntime.register(type, "D:/0workspace/repo/betterme-landingpage/src/App.tsx " + id);
+}
+function $RefreshSig$() {
+  return RefreshRuntime.createSignatureFunctionForTransform();
+}
+
+//# sourceMappingURL=data:application/json;base64,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RSxNQUFBO0FBQUEsYUFBQUMsTUFBQTtBQUFBLGFBQUFFLE1BQUE7QUFBQSxhQUFBQyxNQUFBO0FBQUEsYUFBQUUsTUFBQTtBQUFBLGFBQUFDLE1BQUE7QUFBQSxhQUFBRSxNQUFBO0FBQUEsYUFBQUMsTUFBQTtBQUFBLGFBQUFFLE1BQUE7QUFBQSxhQUFBRSxNQUFBIiwibmFtZXMiOlsiU3VzcGVuc2UiLCJsYXp5IiwiQnJvd3NlclJvdXRlciIsIlJvdXRlcyIsIlJvdXRlIiwiTmF2YmFyIiwiRm9vdGVyU2VjdGlvbiIsIkhvbWVQYWdlIiwiX2MiLCJ0aGVuIiwibW9kdWxlIiwiZGVmYXVsdCIsIl9jMiIsIkZlYXR1cmVzUGFnZSIsIl9jMyIsIl9jNCIsIlNvbHV0aW9uc1BhZ2UiLCJfYzUiLCJfYzYiLCJBYm91dCIsIl9jNyIsIl9jOCIsIkFydGljbGVzIiwiX2M5IiwiX2MwIiwiQWlBc3Npc3RhbnQiLCJfYzEiLCJfYzEwIiwiQUlDdXN0b21pemVQYWdlIiwiX2MxMSIsIl9jMTIiLCJQcmljaW5nUGFnZSIsIl9jMTMiLCJfYzE0IiwiRG93bmxvYWRQYWdlIiwiX2MxNSIsIl9jMTYiLCJIZWxwIiwiX2MxNyIsIl9jMTgiLCJTdG9yaWVzUGFnZSIsIl9jMTkiLCJfYzIwIiwiUm91dGVGYWxsYmFjayIsIl9jMjEiLCJBcHAiLCJfYzIyIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VzIjpbIkFwcC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IFN1c3BlbnNlLCBsYXp5IH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgQnJvd3NlclJvdXRlciwgUm91dGVzLCBSb3V0ZSB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nO1xuaW1wb3J0IHsgTmF2YmFyIH0gZnJvbSAnLi9jb21wb25lbnRzL05hdmJhcic7XG5pbXBvcnQgeyBGb290ZXJTZWN0aW9uIH0gZnJvbSAnLi9jb21wb25lbnRzL0Zvb3Rlcic7XG5cbmNvbnN0IEhvbWVQYWdlID0gbGF6eSgoKSA9PiBpbXBvcnQoJy4vcGFnZXMvSG9tZScpLnRoZW4oKG1vZHVsZSkgPT4gKHsgZGVmYXVsdDogbW9kdWxlLkhvbWVQYWdlIH0pKSk7XG5jb25zdCBGZWF0dXJlc1BhZ2UgPSBsYXp5KCgpID0+IGltcG9ydCgnLi9wYWdlcy9GZWF0dXJlcycpLnRoZW4oKG1vZHVsZSkgPT4gKHsgZGVmYXVsdDogbW9kdWxlLkZlYXR1cmVzUGFnZSB9KSkpO1xuY29uc3QgU29sdXRpb25zUGFnZSA9IGxhenkoKCkgPT4gaW1wb3J0KCcuL3BhZ2VzL1NvbHV0aW9ucycpLnRoZW4oKG1vZHVsZSkgPT4gKHsgZGVmYXVsdDogbW9kdWxlLlNvbHV0aW9uc1BhZ2UgfSkpKTtcbmNvbnN0IEFib3V0ID0gbGF6eSgoKSA9PiBpbXBvcnQoJy4vcGFnZXMvQWJvdXQnKS50aGVuKChtb2R1bGUpID0+ICh7IGRlZmF1bHQ6IG1vZHVsZS5BYm91dCB9KSkpO1xuY29uc3QgQXJ0aWNsZXMgPSBsYXp5KCgpID0+IGltcG9ydCgnLi9wYWdlcy9BcnRpY2xlcycpLnRoZW4oKG1vZHVsZSkgPT4gKHsgZGVmYXVsdDogbW9kdWxlLkFydGljbGVzIH0pKSk7XG5jb25zdCBBaUFzc2lzdGFudCA9IGxhenkoKCkgPT4gaW1wb3J0KCcuL3BhZ2VzL0FpQXNzaXN0YW50JykudGhlbigobW9kdWxlKSA9PiAoeyBkZWZhdWx0OiBtb2R1bGUuQWlBc3Npc3RhbnQgfSkpKTtcbmNvbnN0IEFJQ3VzdG9taXplUGFnZSA9IGxhenkoKCkgPT4gaW1wb3J0KCcuL3BhZ2VzL0FJQ3VzdG9taXplJykudGhlbigobW9kdWxlKSA9PiAoeyBkZWZhdWx0OiBtb2R1bGUuQUlDdXN0b21pemVQYWdlIH0pKSk7XG5jb25zdCBQcmljaW5nUGFnZSA9IGxhenkoKCkgPT4gaW1wb3J0KCcuL3BhZ2VzL1ByaWNpbmcnKS50aGVuKChtb2R1bGUpID0+ICh7IGRlZmF1bHQ6IG1vZHVsZS5QcmljaW5nUGFnZSB9KSkpO1xuY29uc3QgRG93bmxvYWRQYWdlID0gbGF6eSgoKSA9PiBpbXBvcnQoJy4vcGFnZXMvRG93bmxvYWQnKS50aGVuKChtb2R1bGUpID0+ICh7IGRlZmF1bHQ6IG1vZHVsZS5Eb3dubG9hZFBhZ2UgfSkpKTtcbmNvbnN0IEhlbHAgPSBsYXp5KCgpID0+IGltcG9ydCgnLi9wYWdlcy9IZWxwJykudGhlbigobW9kdWxlKSA9PiAoeyBkZWZhdWx0OiBtb2R1bGUuSGVscCB9KSkpO1xuY29uc3QgU3Rvcmllc1BhZ2UgPSBsYXp5KCgpID0+IGltcG9ydCgnLi9wYWdlcy9TdG9yaWVzJykudGhlbigobW9kdWxlKSA9PiAoeyBkZWZhdWx0OiBtb2R1bGUuU3Rvcmllc1BhZ2UgfSkpKTtcblxuY29uc3QgUm91dGVGYWxsYmFjayA9ICgpID0+IChcbiAgPG1haW4gY2xhc3NOYW1lPVwibWluLWgtWzYwdmhdIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHB4LTRcIj5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInctMTAgaC0xMCByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLVsjMjA4NzUyXS8yMCBib3JkZXItdC1bIzIwODc1Ml0gYW5pbWF0ZS1zcGluIG14LWF1dG8gbWItNFwiIC8+XG4gICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZ3JheS01MDBcIj7mraPlnKjliqDovb3pobXpnaIuLi48L3A+XG4gICAgPC9kaXY+XG4gIDwvbWFpbj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFwcCgpIHtcbiAgcmV0dXJuIChcbiAgICA8QnJvd3NlclJvdXRlcj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9udC1zYW5zIGFudGlhbGlhc2VkIHRleHQtZ3JheS05MDAgYmctd2hpdGUgbWluLWgtc2NyZWVuIHNlbGVjdGlvbjpiZy1bIzIwODc1Ml0vMjAgc2VsZWN0aW9uOnRleHQtWyMyMDg3NTJdXCI+XG4gICAgICAgIDxOYXZiYXIgLz5cbiAgICAgICAgPFN1c3BlbnNlIGZhbGxiYWNrPXs8Um91dGVGYWxsYmFjayAvPn0+XG4gICAgICAgICAgPFJvdXRlcz5cbiAgICAgICAgICAgIDxSb3V0ZSBwYXRoPVwiL1wiIGVsZW1lbnQ9ezxIb21lUGFnZSAvPn0gLz5cbiAgICAgICAgICAgIDxSb3V0ZSBwYXRoPVwiL2Fib3V0XCIgZWxlbWVudD17PEFib3V0IC8+fSAvPlxuICAgICAgICAgICAgPFJvdXRlIHBhdGg9XCIvYXJ0aWNsZXNcIiBlbGVtZW50PXs8QXJ0aWNsZXMgLz59IC8+XG4gICAgICAgICAgICA8Um91dGUgcGF0aD1cIi9haS1hc3Npc3RhbnRcIiBlbGVtZW50PXs8QWlBc3Npc3RhbnQgLz59IC8+XG4gICAgICAgICAgICA8Um91dGUgcGF0aD1cIi9mZWF0dXJlc1wiIGVsZW1lbnQ9ezxGZWF0dXJlc1BhZ2UgLz59IC8+XG4gICAgICAgICAgICA8Um91dGUgcGF0aD1cIi9zb2x1dGlvbnNcIiBlbGVtZW50PXs8U29sdXRpb25zUGFnZSAvPn0gLz5cbiAgICAgICAgICAgIDxSb3V0ZSBwYXRoPVwiL3N0b3JpZXNcIiBlbGVtZW50PXs8U3Rvcmllc1BhZ2UgLz59IC8+XG4gICAgICAgICAgICA8Um91dGUgcGF0aD1cIi9haS1jdXN0b21pemVcIiBlbGVtZW50PXs8QUlDdXN0b21pemVQYWdlIC8+fSAvPlxuICAgICAgICAgICAgPFJvdXRlIHBhdGg9XCIvaGVscFwiIGVsZW1lbnQ9ezxIZWxwIC8+fSAvPlxuICAgICAgICAgICAgPFJvdXRlIHBhdGg9XCIvcHJpY2luZ1wiIGVsZW1lbnQ9ezxQcmljaW5nUGFnZSAvPn0gLz5cbiAgICAgICAgICAgIDxSb3V0ZSBwYXRoPVwiL2Rvd25sb2FkXCIgZWxlbWVudD17PERvd25sb2FkUGFnZSAvPn0gLz5cbiAgICAgICAgICA8L1JvdXRlcz5cbiAgICAgICAgPC9TdXNwZW5zZT5cbiAgICAgICAgPEZvb3RlclNlY3Rpb24gLz5cbiAgICAgIDwvZGl2PlxuICAgIDwvQnJvd3NlclJvdXRlcj5cbiAgKTtcbn1cbiJdLCJmaWxlIjoiRDovMHdvcmtzcGFjZS9yZXBvL2JldHRlcm1lLWxhbmRpbmdwYWdlL3NyYy9BcHAudHN4In0=

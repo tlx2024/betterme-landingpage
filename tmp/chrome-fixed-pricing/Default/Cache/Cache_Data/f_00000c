@@ -1,0 +1,856 @@
+import { createHotContext as __vite__createHotContext } from "/@vite/client";import.meta.hot = __vite__createHotContext("/src/pages/Pricing.tsx");import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=9a81c106"; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
+import { Lock, ShieldCheck, CheckCircle2 } from "/node_modules/.vite/deps/lucide-react.js?v=9a81c106";
+import { Link } from "/node_modules/.vite/deps/react-router-dom.js?v=9a81c106";
+import { appLinks } from "/src/config/appLinks.ts";
+const pricingImages = {
+  hero: "/pricing/gpt-hero-pricing.png",
+  cta: "/shared-gpt-cta.png"
+};
+export const PricingPage = () => {
+  return /* @__PURE__ */ jsxDEV("div", { className: "pt-20 bg-[#fafcfb] min-h-screen", children: [
+    /* @__PURE__ */ jsxDEV("div", { className: "relative overflow-hidden bg-[#fafcfb] pt-6 pb-24", children: /* @__PURE__ */ jsxDEV("div", { className: "relative mx-auto min-h-[500px] max-w-7xl overflow-hidden bg-white", children: [
+      /* @__PURE__ */ jsxDEV("img", { src: pricingImages.hero, alt: "", className: "absolute inset-0 h-full w-full object-cover object-center" }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 17,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ jsxDEV("div", { className: "absolute inset-0 bg-[linear-gradient(90deg,#fff_0%,rgba(255,255,255,0.97)_31%,rgba(255,255,255,0.66)_56%,rgba(255,255,255,0)_84%)]", "aria-hidden": "true" }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 18,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ jsxDEV("div", { className: "min-h-[500px] px-4 sm:px-6 lg:px-8 relative flex items-center z-10", children: /* @__PURE__ */ jsxDEV("div", { className: "max-w-[34rem] animate-in fade-in slide-in-from-left-8 duration-1000", children: [
+        /* @__PURE__ */ jsxDEV("h1", { className: "text-4xl lg:text-[3rem] font-bold text-gray-900 mb-6 tracking-tight leading-[1.2]", children: [
+          "你可以免费开始，",
+          /* @__PURE__ */ jsxDEV("br", {}, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 23,
+            columnNumber: 37
+          }, this),
+          "也可以",
+          /* @__PURE__ */ jsxDEV("span", { className: "text-[#208752]", children: "走得更远" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 23,
+            columnNumber: 46
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 22,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("p", { className: "text-[17px] text-gray-600 mb-10 max-w-md leading-relaxed font-medium", children: "BetterMe 不强迫改变，只在你需要的时候，给你更多支持" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 25,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "flex flex-wrap gap-x-6 gap-y-4", children: [
+          /* @__PURE__ */ jsxDEV("div", { className: "flex items-center gap-2 text-[13px] font-bold text-gray-700", children: [
+            /* @__PURE__ */ jsxDEV("div", { className: "w-6 h-6 rounded-full bg-green-50 flex items-center justify-center text-[#208752]", children: /* @__PURE__ */ jsxDEV(HeartIcon, { className: "w-3.5 h-3.5" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 30,
+              columnNumber: 204
+            }, this) }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 30,
+              columnNumber: 106
+            }, this),
+            " 核心功能永久免费"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 30,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("div", { className: "flex items-center gap-2 text-[13px] font-bold text-gray-700", children: [
+            /* @__PURE__ */ jsxDEV("div", { className: "w-6 h-6 rounded-full bg-green-50 flex items-center justify-center text-[#208752]", children: /* @__PURE__ */ jsxDEV(ShieldCheck, { className: "w-3.5 h-3.5" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 31,
+              columnNumber: 204
+            }, this) }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 31,
+              columnNumber: 106
+            }, this),
+            " 无广告干扰"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 31,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("div", { className: "flex items-center gap-2 text-[13px] font-bold text-gray-700", children: [
+            /* @__PURE__ */ jsxDEV("div", { className: "w-6 h-6 rounded-full bg-green-50 flex items-center justify-center text-[#208752]", children: /* @__PURE__ */ jsxDEV(Lock, { className: "w-3.5 h-3.5" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 32,
+              columnNumber: 204
+            }, this) }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 32,
+              columnNumber: 106
+            }, this),
+            " 你的数据，安全私密"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 32,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 29,
+          columnNumber: 25
+        }, this)
+      ] }, void 0, true, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 21,
+        columnNumber: 21
+      }, this) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 20,
+        columnNumber: 17
+      }, this)
+    ] }, void 0, true, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+      lineNumber: 16,
+      columnNumber: 17
+    }, this) }, void 0, false, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+      lineNumber: 15,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ jsxDEV("div", { id: "premium-plans", className: "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 pb-20 mt-[-2rem]", children: /* @__PURE__ */ jsxDEV("div", { className: "grid md:grid-cols-3 gap-6 lg:gap-8 items-start", children: [
+      /* @__PURE__ */ jsxDEV("div", { className: "bg-white rounded-[2rem] p-8 lg:p-10 shadow-sm border border-gray-200", children: [
+        /* @__PURE__ */ jsxDEV("div", { className: "text-xl font-bold text-gray-900 mb-2", children: "免费版" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 44,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "flex items-baseline gap-1 mb-2", children: [
+          /* @__PURE__ */ jsxDEV("span", { className: "text-3xl font-bold text-gray-900", children: "¥" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 46,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("span", { className: "text-[3.5rem] font-black text-gray-900 tracking-tighter", children: "0" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 47,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 45,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("p", { className: "text-[13px] text-gray-500 font-medium mb-8", children: "已经足够让你开始改变" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 49,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("ul", { className: "space-y-4 mb-10 text-[14px] text-gray-700 font-medium h-[240px]", children: [
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 52,
+              columnNumber: 69
+            }, this),
+            " 每日健康卡片"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 52,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 53,
+              columnNumber: 69
+            }, this),
+            " 饮食记录 (拍照识别)"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 53,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 54,
+              columnNumber: 69
+            }, this),
+            " 基础热量分析"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 54,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 55,
+              columnNumber: 69
+            }, this),
+            " AI 基础建议"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 55,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 56,
+              columnNumber: 69
+            }, this),
+            " 数据趋势查看"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 56,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 57,
+              columnNumber: 69
+            }, this),
+            " 朋友餐桌 (社群互动)"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 57,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 51,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV(Link, { to: appLinks.download, className: "block w-full py-4 rounded-xl border-2 border-[#208752] text-[#208752] font-bold hover:bg-green-50 transition-colors text-center", children: "直接开始" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 59,
+          columnNumber: 25
+        }, this)
+      ] }, void 0, true, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 43,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ jsxDEV("div", { className: "bg-white rounded-[2rem] p-8 lg:p-10 shadow-sm border border-gray-200 relative mt-4 md:mt-0", children: [
+        /* @__PURE__ */ jsxDEV("div", { className: "text-xl font-bold text-gray-900 mb-2", children: "Premium 月度" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 64,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "flex items-baseline gap-1 mb-2", children: [
+          /* @__PURE__ */ jsxDEV("span", { className: "text-3xl font-bold text-gray-900", children: "¥" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 66,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("span", { className: "text-[3.5rem] font-black text-gray-900 tracking-tighter", children: "28" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 67,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("span", { className: "text-gray-500 font-medium", children: "/ 月" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 68,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 65,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("p", { className: "text-[13px] text-gray-500 font-medium mb-8", children: "当你想更认真一点" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 70,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "mb-4 text-[13px] font-bold text-[#208752]", children: "免费版全部功能 +" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 72,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("ul", { className: "space-y-4 mb-10 text-[14px] text-gray-700 font-medium h-[200px]", children: [
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 74,
+              columnNumber: 69
+            }, this),
+            " 更精准营养分析"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 74,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 75,
+              columnNumber: 69
+            }, this),
+            " 每日个性化饮食计划"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 75,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 76,
+              columnNumber: 69
+            }, this),
+            " 高级 AI 建议 (更具体)"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 76,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 77,
+              columnNumber: 69
+            }, this),
+            " 睡前深度复盘报告"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 77,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 78,
+              columnNumber: 69
+            }, this),
+            " 多 AI 形象 (声音/风格)"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 78,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752] shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 79,
+              columnNumber: 69
+            }, this),
+            " 无限制历史数据"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 79,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 73,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV(Link, { to: appLinks.download, className: "block w-full py-4 rounded-xl bg-white border border-gray-200 text-gray-900 font-bold hover:bg-gray-50 transition-colors shadow-sm mt-4 text-center", children: "升级体验" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 81,
+          columnNumber: 25
+        }, this)
+      ] }, void 0, true, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 63,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ jsxDEV("div", { className: "bg-[#208752] rounded-[2rem] p-8 lg:p-10 shadow-xl border border-[#1a7144] relative md:-mt-4", children: [
+        /* @__PURE__ */ jsxDEV("div", { className: "absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white text-[#208752] px-4 py-1.5 rounded-full text-[12px] font-black tracking-widest shadow-sm", children: "最受欢迎" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 86,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "text-xl font-bold text-white mb-2", children: "Premium 年度" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 87,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "flex items-baseline gap-1 mb-2", children: [
+          /* @__PURE__ */ jsxDEV("span", { className: "text-3xl font-bold text-white/90", children: "¥" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 89,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("span", { className: "text-[3.5rem] font-black text-white tracking-tighter", children: "198" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 90,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("span", { className: "text-white/70 font-medium", children: "/ 年" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 91,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 88,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "text-[13px] text-white/80 font-medium mb-1", children: "约 ¥0.54 / 天" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 93,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("p", { className: "text-[13px] text-white/80 font-medium mb-8", children: "慢慢变好，比什么都重要" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 94,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "mb-4 text-[13px] font-bold text-white/90", children: "月度全部功能 +" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 96,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("ul", { className: "space-y-4 mb-10 text-[14px] text-white/90 font-medium h-[180px]", children: [
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-white shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 98,
+              columnNumber: 69
+            }, this),
+            " 周报 / 月报导出"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 98,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-white shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 99,
+              columnNumber: 69
+            }, this),
+            " 长期趋势分析"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 99,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-white shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 100,
+              columnNumber: 69
+            }, this),
+            " 优先体验新功能"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 100,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("li", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-white shrink-0" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 101,
+              columnNumber: 69
+            }, this),
+            " 专属客服支持"
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 101,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 97,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV(Link, { to: appLinks.download, className: "block w-full py-4 rounded-xl bg-white text-[#208752] font-black hover:bg-green-50 transition-colors shadow-lg mt-8 text-center", children: "开始长期陪伴" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 103,
+          columnNumber: 25
+        }, this)
+      ] }, void 0, true, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 85,
+        columnNumber: 21
+      }, this)
+    ] }, void 0, true, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+      lineNumber: 41,
+      columnNumber: 17
+    }, this) }, void 0, false, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+      lineNumber: 40,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ jsxDEV("div", { className: "max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 hidden md:block border-t border-gray-100", children: [
+      /* @__PURE__ */ jsxDEV("div", { className: "grid grid-cols-4 gap-4 pb-4 border-b-2 border-gray-900 font-bold text-[15px] text-gray-900", children: [
+        /* @__PURE__ */ jsxDEV("div", { className: "col-span-1", children: "功能对比" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 111,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "text-center", children: "免费版" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 112,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "text-center", children: "Premium 月度" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 113,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "text-center text-[#208752]", children: "Premium 年度" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 114,
+          columnNumber: 21
+        }, this)
+      ] }, void 0, true, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 110,
+        columnNumber: 17
+      }, this),
+      [
+        { name: "每日健康卡片", icon: "📋", free: true, mon: true, yr: true },
+        { name: "饮食记录 (拍照识别)", icon: "📸", free: true, mon: true, yr: true },
+        { name: "基础热量分析", icon: "📊", free: true, mon: true, yr: true },
+        { name: "深度营养分析", icon: "🔬", free: false, mon: true, yr: true },
+        { name: "个性化饮食计划", icon: "🎯", free: false, mon: true, yr: true },
+        { name: "AI 高级建议", icon: "✨", free: false, mon: true, yr: true },
+        { name: "多 AI 形象 (声音/风格)", icon: "🎭", free: false, mon: true, yr: true },
+        { name: "睡前深度复盘报告", icon: "🌙", free: false, mon: true, yr: true },
+        { name: "周报 / 月报导出", icon: "📄", free: false, mon: false, yr: true },
+        { name: "长期趋势分析", icon: "📈", free: false, mon: false, yr: true },
+        { name: "优先体验新功能", icon: "🚀", free: false, mon: false, yr: true },
+        { name: "专属客服支持", icon: "🎧", free: false, mon: false, yr: true }
+      ].map(
+        (row, idx) => /* @__PURE__ */ jsxDEV("div", { className: "grid grid-cols-4 gap-4 py-4 border-b border-gray-100 text-[14px] text-gray-700 items-center hover:bg-gray-50 transition-colors", children: [
+          /* @__PURE__ */ jsxDEV("div", { className: "col-span-1 flex items-center gap-2", children: [
+            /* @__PURE__ */ jsxDEV("span", { className: "text-lg w-6 text-center", children: row.icon }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 132,
+              columnNumber: 77
+            }, this),
+            " ",
+            row.name
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 132,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ jsxDEV("div", { className: "text-center flex justify-center", children: row.free ? /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752]" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 133,
+            columnNumber: 86
+          }, this) : /* @__PURE__ */ jsxDEV("span", { className: "text-gray-300", children: "—" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 133,
+            columnNumber: 140
+          }, this) }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 133,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ jsxDEV("div", { className: "text-center flex justify-center", children: row.mon ? /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752]" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 134,
+            columnNumber: 85
+          }, this) : /* @__PURE__ */ jsxDEV("span", { className: "text-gray-300", children: "—" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 134,
+            columnNumber: 139
+          }, this) }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 134,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ jsxDEV("div", { className: "text-center flex justify-center", children: row.yr ? /* @__PURE__ */ jsxDEV(CheckCircle2, { className: "w-4 h-4 text-[#208752]" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 135,
+            columnNumber: 84
+          }, this) : /* @__PURE__ */ jsxDEV("span", { className: "text-gray-300", children: "—" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 135,
+            columnNumber: 138
+          }, this) }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 135,
+            columnNumber: 25
+          }, this)
+        ] }, idx, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 131,
+          columnNumber: 9
+        }, this)
+      )
+    ] }, void 0, true, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+      lineNumber: 109,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ jsxDEV("div", { className: "bg-white py-20", children: /* @__PURE__ */ jsxDEV("div", { className: "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8", children: [
+      /* @__PURE__ */ jsxDEV("h2", { className: "text-2xl font-bold text-gray-900 mb-10 tracking-tight", children: "为什么升级 Premium？" }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 143,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ jsxDEV("div", { className: "grid md:grid-cols-3 gap-6", children: [
+        /* @__PURE__ */ jsxDEV("div", { className: "bg-[#f8fbf9] rounded-[2rem] p-8 border border-green-50 shadow-sm flex items-start gap-4", children: [
+          /* @__PURE__ */ jsxDEV("div", { className: "w-12 h-12 bg-white rounded-2xl shadow-sm flex items-center justify-center shrink-0 text-3xl", children: "🤖" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 146,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("div", { children: [
+            /* @__PURE__ */ jsxDEV("h4", { className: "font-bold text-gray-900 mb-2", children: "更聪明的 Lily" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 148,
+              columnNumber: 33
+            }, this),
+            /* @__PURE__ */ jsxDEV("p", { className: "text-[13px] text-gray-500 font-medium leading-relaxed", children: "不只是提醒，而是理解你每一天的状态" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 149,
+              columnNumber: 33
+            }, this)
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 147,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 145,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "bg-[#fcfdfd] rounded-[2rem] p-8 border border-blue-50 shadow-sm flex items-start gap-4", children: [
+          /* @__PURE__ */ jsxDEV("div", { className: "w-12 h-12 bg-white rounded-2xl shadow-sm flex items-center justify-center shrink-0 text-3xl", children: "📊" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 153,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("div", { children: [
+            /* @__PURE__ */ jsxDEV("h4", { className: "font-bold text-gray-900 mb-2", children: "更深的分析" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 155,
+              columnNumber: 33
+            }, this),
+            /* @__PURE__ */ jsxDEV("p", { className: "text-[13px] text-gray-500 font-medium leading-relaxed", children: "不只是数字，而是知道你该怎么调整" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 156,
+              columnNumber: 33
+            }, this)
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 154,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 152,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "bg-[#fdfdfc] rounded-[2rem] p-8 border border-orange-50 shadow-sm flex items-start gap-4", children: [
+          /* @__PURE__ */ jsxDEV("div", { className: "w-12 h-12 bg-white rounded-2xl shadow-sm flex items-center justify-center shrink-0 text-3xl", children: "🌱" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 160,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("div", { children: [
+            /* @__PURE__ */ jsxDEV("h4", { className: "font-bold text-gray-900 mb-2", children: "更稳定的改变" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 162,
+              columnNumber: 33
+            }, this),
+            /* @__PURE__ */ jsxDEV("p", { className: "text-[13px] text-gray-500 font-medium leading-relaxed", children: "不靠意志力，而是靠节奏，变成更好的自己" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 163,
+              columnNumber: 33
+            }, this)
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 161,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 159,
+          columnNumber: 25
+        }, this)
+      ] }, void 0, true, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 144,
+        columnNumber: 21
+      }, this)
+    ] }, void 0, true, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+      lineNumber: 142,
+      columnNumber: 17
+    }, this) }, void 0, false, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+      lineNumber: 141,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ jsxDEV("div", { className: "max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20", children: [
+      /* @__PURE__ */ jsxDEV("h2", { className: "text-2xl font-bold text-gray-900 mb-10 tracking-tight", children: "常见问题" }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 172,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ jsxDEV("div", { className: "grid md:grid-cols-2 gap-x-12 gap-y-8", children: [
+        { q: "必须付费才能使用吗？", a: "不需要。免费版已经可以支持你完成大部分的健康管理。" },
+        { q: "什么时候需要升级？", a: "当你希望更细致地了解身体变化，或想要更个性化建议时。" },
+        { q: "可以随时取消吗？", a: "可以，随时取消，没有任何隐藏费用。" },
+        { q: "数据安全吗？", a: "所有数据均加密处理，不会被用于任何商业用途。" }
+      ].map(
+        (faq, idx) => /* @__PURE__ */ jsxDEV("div", { className: "border-b border-gray-100 pb-6", children: [
+          /* @__PURE__ */ jsxDEV("div", { className: "flex justify-between items-start gap-4 mb-2", children: [
+            /* @__PURE__ */ jsxDEV("h4", { className: "font-bold text-gray-900 text-[15px] leading-tight", children: faq.q }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 182,
+              columnNumber: 33
+            }, this),
+            /* @__PURE__ */ jsxDEV("span", { className: "text-gray-400 font-light", children: "+" }, void 0, false, {
+              fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+              lineNumber: 183,
+              columnNumber: 33
+            }, this)
+          ] }, void 0, true, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 181,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("p", { className: "text-[13.5px] text-gray-500 font-medium leading-relaxed pr-6", children: faq.a }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 185,
+            columnNumber: 29
+          }, this)
+        ] }, idx, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 180,
+          columnNumber: 11
+        }, this)
+      ) }, void 0, false, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 173,
+        columnNumber: 17
+      }, this)
+    ] }, void 0, true, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+      lineNumber: 171,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ jsxDEV("div", { className: "bg-white pt-16 pb-0 overflow-hidden relative border-t border-gray-100", children: /* @__PURE__ */ jsxDEV("div", { className: "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center", children: [
+      /* @__PURE__ */ jsxDEV("div", { children: [
+        /* @__PURE__ */ jsxDEV("h2", { className: "text-[2rem] font-bold text-gray-900 mb-2 tracking-tight leading-[1.3] max-w-md", children: [
+          "你不需要一下子改变很多",
+          /* @__PURE__ */ jsxDEV("br", {}, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 196,
+            columnNumber: 40
+          }, this),
+          "只要开始，就已经很好了 ",
+          /* @__PURE__ */ jsxDEV(HeartIcon, { className: "w-5 h-5 inline-block text-[#208752] mb-1" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 196,
+            columnNumber: 58
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 195,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("div", { className: "flex gap-4 mt-8", children: [
+          /* @__PURE__ */ jsxDEV(Link, { to: appLinks.download, className: "bg-[#208752] text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-[#1a7144] transition-colors", children: "免费开始" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 199,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV(Link, { to: appLinks.aiAssistant, className: "bg-white border border-gray-200 text-gray-800 px-8 py-3 rounded-full font-bold shadow-sm hover:bg-gray-50 transition-colors", children: "和 Lily 聊聊" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 200,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 198,
+          columnNumber: 25
+        }, this)
+      ] }, void 0, true, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 194,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ jsxDEV("div", { className: "relative h-[250px] flex items-end justify-end", children: [
+        /* @__PURE__ */ jsxDEV("div", { className: "bg-green-50 rounded-2xl p-4 pr-12 absolute bottom-[40%] right-[30%] shadow-sm z-10 hidden lg:block", children: [
+          /* @__PURE__ */ jsxDEV("div", { className: "text-[13px] font-bold text-gray-800 mb-1", children: "我会一直在你身边," }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 205,
+            columnNumber: 29
+          }, this),
+          /* @__PURE__ */ jsxDEV("div", { className: "text-[13px] font-bold text-[#208752]", children: "陪你慢慢变好 🍃" }, void 0, false, {
+            fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+            lineNumber: 206,
+            columnNumber: 29
+          }, this)
+        ] }, void 0, true, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 204,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ jsxDEV("img", { src: pricingImages.cta, className: "h-[280px] w-full object-contain object-right-bottom z-0 absolute bottom-[-20px] right-0" }, void 0, false, {
+          fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+          lineNumber: 208,
+          columnNumber: 25
+        }, this)
+      ] }, void 0, true, {
+        fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+        lineNumber: 203,
+        columnNumber: 21
+      }, this)
+    ] }, void 0, true, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+      lineNumber: 193,
+      columnNumber: 17
+    }, this) }, void 0, false, {
+      fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+      lineNumber: 192,
+      columnNumber: 13
+    }, this)
+  ] }, void 0, true, {
+    fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+    lineNumber: 13,
+    columnNumber: 5
+  }, this);
+};
+_c = PricingPage;
+const HeartIcon = ({ className }) => /* @__PURE__ */ jsxDEV("svg", { viewBox: "0 0 24 24", fill: "currentColor", className, children: /* @__PURE__ */ jsxDEV("path", { d: "M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" }, void 0, false, {
+  fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+  lineNumber: 218,
+  columnNumber: 9
+}, this) }, void 0, false, {
+  fileName: "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx",
+  lineNumber: 217,
+  columnNumber: 1
+}, this);
+_c2 = HeartIcon;
+var _c, _c2;
+$RefreshReg$(_c, "PricingPage");
+$RefreshReg$(_c2, "HeartIcon");
+import * as RefreshRuntime from "/@react-refresh";
+const inWebWorker = typeof WorkerGlobalScope !== "undefined" && self instanceof WorkerGlobalScope;
+if (import.meta.hot && !inWebWorker) {
+  if (!window.$RefreshReg$) {
+    throw new Error(
+      "@vitejs/plugin-react can't detect preamble. Something is wrong."
+    );
+  }
+  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {
+    RefreshRuntime.registerExportsForReactRefresh("D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx", currentExports);
+    import.meta.hot.accept((nextExports) => {
+      if (!nextExports) return;
+      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate("D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx", currentExports, nextExports);
+      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);
+    });
+  });
+}
+function $RefreshReg$(type, id) {
+  return RefreshRuntime.register(type, "D:/0workspace/repo/betterme-landingpage/src/pages/Pricing.tsx " + id);
+}
+function $RefreshSig$() {
+  return RefreshRuntime.createSignatureFunctionForTransform();
+}
+
+//# sourceMappingURL=data:application/json;base64,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SjtBQUFBO0FBQUE7QUFBQTtBQUFBLFdBaUJBLEtBbEJKO0FBQUE7QUFBQTtBQUFBO0FBQUEsV0FtQkE7QUFBQSxPQXRNSjtBQUFBO0FBQUE7QUFBQTtBQUFBLFNBdU1BO0FBRVI7QUFBRWUsS0EzTVdkO0FBNk1iLE1BQU1lLFlBQVlBLENBQUMsRUFBRUMsVUFBa0MsTUFDbkQsdUJBQUMsU0FBSSxTQUFRLGFBQVksTUFBSyxnQkFBZSxXQUN6QyxpQ0FBQyxVQUFLLEdBQUUsb0xBQVI7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUF3TCxLQUQ1TDtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BRUE7QUFDSEMsTUFKS0Y7QUFBUyxJQUFBRCxJQUFBRztBQUFBLGFBQUFILElBQUE7QUFBQSxhQUFBRyxLQUFBIiwibmFtZXMiOlsiTG9jayIsIlNoaWVsZENoZWNrIiwiQ2hlY2tDaXJjbGUyIiwiTGluayIsImFwcExpbmtzIiwicHJpY2luZ0ltYWdlcyIsImhlcm8iLCJjdGEiLCJQcmljaW5nUGFnZSIsImRvd25sb2FkIiwibmFtZSIsImljb24iLCJmcmVlIiwibW9uIiwieXIiLCJtYXAiLCJyb3ciLCJpZHgiLCJxIiwiYSIsImZhcSIsImFpQXNzaXN0YW50IiwiX2MiLCJIZWFydEljb24iLCJjbGFzc05hbWUiLCJfYzIiXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZXMiOlsiUHJpY2luZy50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IExlYWYsIEFwcGxlLCBMb2NrLCBTaGllbGRDaGVjaywgQ2hlY2tDaXJjbGUyLCBaYXAsIERvd25sb2FkIH0gZnJvbSAnbHVjaWRlLXJlYWN0JztcbmltcG9ydCB7IExpbmsgfSBmcm9tICdyZWFjdC1yb3V0ZXItZG9tJztcbmltcG9ydCB7IGFwcExpbmtzIH0gZnJvbSAnLi4vY29uZmlnL2FwcExpbmtzJztcblxuY29uc3QgcHJpY2luZ0ltYWdlcyA9IHtcbiAgICBoZXJvOiAnL3ByaWNpbmcvZ3B0LWhlcm8tcHJpY2luZy5wbmcnLFxuICAgIGN0YTogJy9zaGFyZWQtZ3B0LWN0YS5wbmcnLFxufTtcblxuZXhwb3J0IGNvbnN0IFByaWNpbmdQYWdlID0gKCkgPT4ge1xuICAgIHJldHVybiAoXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHQtMjAgYmctWyNmYWZjZmJdIG1pbi1oLXNjcmVlblwiPlxuICAgICAgICAgICAgey8qIEhlcm8gKi99XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiBiZy1bI2ZhZmNmYl0gcHQtNiBwYi0yNFwiPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicmVsYXRpdmUgbXgtYXV0byBtaW4taC1bNTAwcHhdIG1heC13LTd4bCBvdmVyZmxvdy1oaWRkZW4gYmctd2hpdGVcIj5cbiAgICAgICAgICAgICAgICA8aW1nIHNyYz17cHJpY2luZ0ltYWdlcy5oZXJvfSBhbHQ9XCJcIiBjbGFzc05hbWU9XCJhYnNvbHV0ZSBpbnNldC0wIGgtZnVsbCB3LWZ1bGwgb2JqZWN0LWNvdmVyIG9iamVjdC1jZW50ZXJcIiAvPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYWJzb2x1dGUgaW5zZXQtMCBiZy1bbGluZWFyLWdyYWRpZW50KDkwZGVnLCNmZmZfMCUscmdiYSgyNTUsMjU1LDI1NSwwLjk3KV8zMSUscmdiYSgyNTUsMjU1LDI1NSwwLjY2KV81NiUscmdiYSgyNTUsMjU1LDI1NSwwKV84NCUpXVwiIGFyaWEtaGlkZGVuPVwidHJ1ZVwiPjwvZGl2PlxuXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtaW4taC1bNTAwcHhdIHB4LTQgc206cHgtNiBsZzpweC04IHJlbGF0aXZlIGZsZXggaXRlbXMtY2VudGVyIHotMTBcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYXgtdy1bMzRyZW1dIGFuaW1hdGUtaW4gZmFkZS1pbiBzbGlkZS1pbi1mcm9tLWxlZnQtOCBkdXJhdGlvbi0xMDAwXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwidGV4dC00eGwgbGc6dGV4dC1bM3JlbV0gZm9udC1ib2xkIHRleHQtZ3JheS05MDAgbWItNiB0cmFja2luZy10aWdodCBsZWFkaW5nLVsxLjJdXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAg5L2g5Y+v5Lul5YWN6LS55byA5aeL77yMPGJyIC8+5Lmf5Y+v5LulPHNwYW4gY2xhc3NOYW1lPVwidGV4dC1bIzIwODc1Ml1cIj7otbDlvpfmm7Tov5w8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2gxPlxuICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1bMTdweF0gdGV4dC1ncmF5LTYwMCBtYi0xMCBtYXgtdy1tZCBsZWFkaW5nLXJlbGF4ZWQgZm9udC1tZWRpdW1cIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBCZXR0ZXJNZSDkuI3lvLrov6vmlLnlj5jvvIzlj6rlnKjkvaDpnIDopoHnmoTml7blgJnvvIznu5nkvaDmm7TlpJrmlK/mjIFcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cblxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGZsZXgtd3JhcCBnYXAteC02IGdhcC15LTRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtWzEzcHhdIGZvbnQtYm9sZCB0ZXh0LWdyYXktNzAwXCI+PGRpdiBjbGFzc05hbWU9XCJ3LTYgaC02IHJvdW5kZWQtZnVsbCBiZy1ncmVlbi01MCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LVsjMjA4NzUyXVwiPjxIZWFydEljb24gY2xhc3NOYW1lPVwidy0zLjUgaC0zLjVcIiAvPjwvZGl2PiDmoLjlv4Plip/og73msLjkuYXlhY3otLk8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtWzEzcHhdIGZvbnQtYm9sZCB0ZXh0LWdyYXktNzAwXCI+PGRpdiBjbGFzc05hbWU9XCJ3LTYgaC02IHJvdW5kZWQtZnVsbCBiZy1ncmVlbi01MCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LVsjMjA4NzUyXVwiPjxTaGllbGRDaGVjayBjbGFzc05hbWU9XCJ3LTMuNSBoLTMuNVwiIC8+PC9kaXY+IOaXoOW5v+WRiuW5suaJsDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1bMTNweF0gZm9udC1ib2xkIHRleHQtZ3JheS03MDBcIj48ZGl2IGNsYXNzTmFtZT1cInctNiBoLTYgcm91bmRlZC1mdWxsIGJnLWdyZWVuLTUwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRleHQtWyMyMDg3NTJdXCI+PExvY2sgY2xhc3NOYW1lPVwidy0zLjUgaC0zLjVcIiAvPjwvZGl2PiDkvaDnmoTmlbDmja7vvIzlronlhajnp4Hlr4Y8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICB7LyogUHJpY2luZyBDYXJkcyAqL31cbiAgICAgICAgICAgIDxkaXYgaWQ9XCJwcmVtaXVtLXBsYW5zXCIgY2xhc3NOYW1lPVwibWF4LXctNnhsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTggcmVsYXRpdmUgei0yMCBwYi0yMCBtdC1bLTJyZW1dXCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJncmlkIG1kOmdyaWQtY29scy0zIGdhcC02IGxnOmdhcC04IGl0ZW1zLXN0YXJ0XCI+XG4gICAgICAgICAgICAgICAgICAgIHsvKiBGcmVlIFBsYW4gKi99XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmctd2hpdGUgcm91bmRlZC1bMnJlbV0gcC04IGxnOnAtMTAgc2hhZG93LXNtIGJvcmRlciBib3JkZXItZ3JheS0yMDBcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC14bCBmb250LWJvbGQgdGV4dC1ncmF5LTkwMCBtYi0yXCI+5YWN6LS554mIPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtYmFzZWxpbmUgZ2FwLTEgbWItMlwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRleHQtM3hsIGZvbnQtYm9sZCB0ZXh0LWdyYXktOTAwXCI+wqU8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGV4dC1bMy41cmVtXSBmb250LWJsYWNrIHRleHQtZ3JheS05MDAgdHJhY2tpbmctdGlnaHRlclwiPjA8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cInRleHQtWzEzcHhdIHRleHQtZ3JheS01MDAgZm9udC1tZWRpdW0gbWItOFwiPuW3sue7j+i2s+Wkn+iuqeS9oOW8gOWni+aUueWPmDwvcD5cblxuICAgICAgICAgICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT1cInNwYWNlLXktNCBtYi0xMCB0ZXh0LVsxNHB4XSB0ZXh0LWdyYXktNzAwIGZvbnQtbWVkaXVtIGgtWzI0MHB4XVwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtM1wiPjxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPVwidy00IGgtNCB0ZXh0LVsjMjA4NzUyXSBzaHJpbmstMFwiIC8+IOavj+aXpeWBpeW6t+WNoeeJhzwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0zXCI+PENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9XCJ3LTQgaC00IHRleHQtWyMyMDg3NTJdIHNocmluay0wXCIgLz4g6aWu6aOf6K6w5b2VICjmi43nhafor4bliKspPC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTNcIj48Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT1cInctNCBoLTQgdGV4dC1bIzIwODc1Ml0gc2hyaW5rLTBcIiAvPiDln7rnoYDng63ph4/liIbmnpA8L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtM1wiPjxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPVwidy00IGgtNCB0ZXh0LVsjMjA4NzUyXSBzaHJpbmstMFwiIC8+IEFJIOWfuuehgOW7uuiurjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0zXCI+PENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9XCJ3LTQgaC00IHRleHQtWyMyMDg3NTJdIHNocmluay0wXCIgLz4g5pWw5o2u6LaL5Yq/5p+l55yLPC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTNcIj48Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT1cInctNCBoLTQgdGV4dC1bIzIwODc1Ml0gc2hyaW5rLTBcIiAvPiDmnIvlj4vppJDmoYwgKOekvue+pOS6kuWKqCk8L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC91bD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxMaW5rIHRvPXthcHBMaW5rcy5kb3dubG9hZH0gY2xhc3NOYW1lPVwiYmxvY2sgdy1mdWxsIHB5LTQgcm91bmRlZC14bCBib3JkZXItMiBib3JkZXItWyMyMDg3NTJdIHRleHQtWyMyMDg3NTJdIGZvbnQtYm9sZCBob3ZlcjpiZy1ncmVlbi01MCB0cmFuc2l0aW9uLWNvbG9ycyB0ZXh0LWNlbnRlclwiPuebtOaOpeW8gOWnizwvTGluaz5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICAgICAgey8qIFByZW1pdW0gTW9udGhseSAqL31cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiZy13aGl0ZSByb3VuZGVkLVsycmVtXSBwLTggbGc6cC0xMCBzaGFkb3ctc20gYm9yZGVyIGJvcmRlci1ncmF5LTIwMCByZWxhdGl2ZSBtdC00IG1kOm10LTBcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC14bCBmb250LWJvbGQgdGV4dC1ncmF5LTkwMCBtYi0yXCI+UHJlbWl1bSDmnIjluqY8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1iYXNlbGluZSBnYXAtMSBtYi0yXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGV4dC0zeGwgZm9udC1ib2xkIHRleHQtZ3JheS05MDBcIj7CpTwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJ0ZXh0LVszLjVyZW1dIGZvbnQtYmxhY2sgdGV4dC1ncmF5LTkwMCB0cmFja2luZy10aWdodGVyXCI+Mjg8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGV4dC1ncmF5LTUwMCBmb250LW1lZGl1bVwiPi8g5pyIPC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LVsxM3B4XSB0ZXh0LWdyYXktNTAwIGZvbnQtbWVkaXVtIG1iLThcIj7lvZPkvaDmg7Pmm7TorqTnnJ/kuIDngrk8L3A+XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWItNCB0ZXh0LVsxM3B4XSBmb250LWJvbGQgdGV4dC1bIzIwODc1Ml1cIj7lhY3otLnniYjlhajpg6jlip/og70gKzwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT1cInNwYWNlLXktNCBtYi0xMCB0ZXh0LVsxNHB4XSB0ZXh0LWdyYXktNzAwIGZvbnQtbWVkaXVtIGgtWzIwMHB4XVwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtM1wiPjxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPVwidy00IGgtNCB0ZXh0LVsjMjA4NzUyXSBzaHJpbmstMFwiIC8+IOabtOeyvuWHhuiQpeWFu+WIhuaekDwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0zXCI+PENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9XCJ3LTQgaC00IHRleHQtWyMyMDg3NTJdIHNocmluay0wXCIgLz4g5q+P5pel5Liq5oCn5YyW6aWu6aOf6K6h5YiSPC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTNcIj48Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT1cInctNCBoLTQgdGV4dC1bIzIwODc1Ml0gc2hyaW5rLTBcIiAvPiDpq5jnuqcgQUkg5bu66K6uICjmm7TlhbfkvZMpPC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTNcIj48Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT1cInctNCBoLTQgdGV4dC1bIzIwODc1Ml0gc2hyaW5rLTBcIiAvPiDnnaHliY3mt7HluqblpI3nm5jmiqXlkYo8L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtM1wiPjxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPVwidy00IGgtNCB0ZXh0LVsjMjA4NzUyXSBzaHJpbmstMFwiIC8+IOWkmiBBSSDlvaLosaEgKOWjsOmfsy/po47moLwpPC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTNcIj48Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT1cInctNCBoLTQgdGV4dC1bIzIwODc1Ml0gc2hyaW5rLTBcIiAvPiDml6DpmZDliLbljoblj7LmlbDmja48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC91bD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxMaW5rIHRvPXthcHBMaW5rcy5kb3dubG9hZH0gY2xhc3NOYW1lPVwiYmxvY2sgdy1mdWxsIHB5LTQgcm91bmRlZC14bCBiZy13aGl0ZSBib3JkZXIgYm9yZGVyLWdyYXktMjAwIHRleHQtZ3JheS05MDAgZm9udC1ib2xkIGhvdmVyOmJnLWdyYXktNTAgdHJhbnNpdGlvbi1jb2xvcnMgc2hhZG93LXNtIG10LTQgdGV4dC1jZW50ZXJcIj7ljYfnuqfkvZPpqow8L0xpbms+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICAgICAgICAgIHsvKiBQcmVtaXVtIFllYXJseSAtIEhpZ2hsaWdodGVkICovfVxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJnLVsjMjA4NzUyXSByb3VuZGVkLVsycmVtXSBwLTggbGc6cC0xMCBzaGFkb3cteGwgYm9yZGVyIGJvcmRlci1bIzFhNzE0NF0gcmVsYXRpdmUgbWQ6LW10LTRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYWJzb2x1dGUgdG9wLTAgbGVmdC0xLzIgLXRyYW5zbGF0ZS14LTEvMiAtdHJhbnNsYXRlLXktMS8yIGJnLXdoaXRlIHRleHQtWyMyMDg3NTJdIHB4LTQgcHktMS41IHJvdW5kZWQtZnVsbCB0ZXh0LVsxMnB4XSBmb250LWJsYWNrIHRyYWNraW5nLXdpZGVzdCBzaGFkb3ctc21cIj7mnIDlj5fmrKLov448L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC14bCBmb250LWJvbGQgdGV4dC13aGl0ZSBtYi0yXCI+UHJlbWl1bSDlubTluqY8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1iYXNlbGluZSBnYXAtMSBtYi0yXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGV4dC0zeGwgZm9udC1ib2xkIHRleHQtd2hpdGUvOTBcIj7CpTwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJ0ZXh0LVszLjVyZW1dIGZvbnQtYmxhY2sgdGV4dC13aGl0ZSB0cmFja2luZy10aWdodGVyXCI+MTk4PC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRleHQtd2hpdGUvNzAgZm9udC1tZWRpdW1cIj4vIOW5tDwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LVsxM3B4XSB0ZXh0LXdoaXRlLzgwIGZvbnQtbWVkaXVtIG1iLTFcIj7nuqYgwqUwLjU0IC8g5aSpPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LVsxM3B4XSB0ZXh0LXdoaXRlLzgwIGZvbnQtbWVkaXVtIG1iLThcIj7mhaLmhaLlj5jlpb3vvIzmr5Tku4DkuYjpg73ph43opoE8L3A+XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWItNCB0ZXh0LVsxM3B4XSBmb250LWJvbGQgdGV4dC13aGl0ZS85MFwiPuaciOW6puWFqOmDqOWKn+iDvSArPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPVwic3BhY2UteS00IG1iLTEwIHRleHQtWzE0cHhdIHRleHQtd2hpdGUvOTAgZm9udC1tZWRpdW0gaC1bMTgwcHhdXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0zXCI+PENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9XCJ3LTQgaC00IHRleHQtd2hpdGUgc2hyaW5rLTBcIiAvPiDlkajmiqUgLyDmnIjmiqXlr7zlh7o8L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtM1wiPjxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPVwidy00IGgtNCB0ZXh0LXdoaXRlIHNocmluay0wXCIgLz4g6ZW/5pyf6LaL5Yq/5YiG5p6QPC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTNcIj48Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT1cInctNCBoLTQgdGV4dC13aGl0ZSBzaHJpbmstMFwiIC8+IOS8mOWFiOS9k+mqjOaWsOWKn+iDvTwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0zXCI+PENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9XCJ3LTQgaC00IHRleHQtd2hpdGUgc2hyaW5rLTBcIiAvPiDkuJPlsZ7lrqLmnI3mlK/mjIE8L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC91bD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxMaW5rIHRvPXthcHBMaW5rcy5kb3dubG9hZH0gY2xhc3NOYW1lPVwiYmxvY2sgdy1mdWxsIHB5LTQgcm91bmRlZC14bCBiZy13aGl0ZSB0ZXh0LVsjMjA4NzUyXSBmb250LWJsYWNrIGhvdmVyOmJnLWdyZWVuLTUwIHRyYW5zaXRpb24tY29sb3JzIHNoYWRvdy1sZyBtdC04IHRleHQtY2VudGVyXCI+5byA5aeL6ZW/5pyf6Zmq5Ly0PC9MaW5rPlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICB7LyogRmVhdHVyZXMgQ29tcGFyaXNvbiBUYWJsZSAqL31cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWF4LXctNXhsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTggcHktMTYgaGlkZGVuIG1kOmJsb2NrIGJvcmRlci10IGJvcmRlci1ncmF5LTEwMFwiPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZ3JpZCBncmlkLWNvbHMtNCBnYXAtNCBwYi00IGJvcmRlci1iLTIgYm9yZGVyLWdyYXktOTAwIGZvbnQtYm9sZCB0ZXh0LVsxNXB4XSB0ZXh0LWdyYXktOTAwXCI+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLXNwYW4tMVwiPuWKn+iDveWvueavlDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+5YWN6LS554mIPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXJcIj5QcmVtaXVtIOaciOW6pjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyIHRleHQtWyMyMDg3NTJdXCI+UHJlbWl1bSDlubTluqY8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgIHtbXG4gICAgICAgICAgICAgICAgICAgIHsgbmFtZTogJ+avj+aXpeWBpeW6t+WNoeeJhycsIGljb246ICfwn5OLJywgZnJlZTogdHJ1ZSwgbW9uOiB0cnVlLCB5cjogdHJ1ZSB9LFxuICAgICAgICAgICAgICAgICAgICB7IG5hbWU6ICfppa7po5/orrDlvZUgKOaLjeeFp+ivhuWIqyknLCBpY29uOiAn8J+TuCcsIGZyZWU6IHRydWUsIG1vbjogdHJ1ZSwgeXI6IHRydWUgfSxcbiAgICAgICAgICAgICAgICAgICAgeyBuYW1lOiAn5Z+656GA54Ot6YeP5YiG5p6QJywgaWNvbjogJ/Cfk4onLCBmcmVlOiB0cnVlLCBtb246IHRydWUsIHlyOiB0cnVlIH0sXG4gICAgICAgICAgICAgICAgICAgIHsgbmFtZTogJ+a3seW6puiQpeWFu+WIhuaekCcsIGljb246ICfwn5SsJywgZnJlZTogZmFsc2UsIG1vbjogdHJ1ZSwgeXI6IHRydWUgfSxcbiAgICAgICAgICAgICAgICAgICAgeyBuYW1lOiAn5Liq5oCn5YyW6aWu6aOf6K6h5YiSJywgaWNvbjogJ/Cfjq8nLCBmcmVlOiBmYWxzZSwgbW9uOiB0cnVlLCB5cjogdHJ1ZSB9LFxuICAgICAgICAgICAgICAgICAgICB7IG5hbWU6ICdBSSDpq5jnuqflu7rorq4nLCBpY29uOiAn4pyoJywgZnJlZTogZmFsc2UsIG1vbjogdHJ1ZSwgeXI6IHRydWUgfSxcbiAgICAgICAgICAgICAgICAgICAgeyBuYW1lOiAn5aSaIEFJIOW9ouixoSAo5aOw6Z+zL+mjjuagvCknLCBpY29uOiAn8J+OrScsIGZyZWU6IGZhbHNlLCBtb246IHRydWUsIHlyOiB0cnVlIH0sXG4gICAgICAgICAgICAgICAgICAgIHsgbmFtZTogJ+edoeWJjea3seW6puWkjeebmOaKpeWRiicsIGljb246ICfwn4yZJywgZnJlZTogZmFsc2UsIG1vbjogdHJ1ZSwgeXI6IHRydWUgfSxcbiAgICAgICAgICAgICAgICAgICAgeyBuYW1lOiAn5ZGo5oqlIC8g5pyI5oql5a+85Ye6JywgaWNvbjogJ/Cfk4QnLCBmcmVlOiBmYWxzZSwgbW9uOiBmYWxzZSwgeXI6IHRydWUgfSxcbiAgICAgICAgICAgICAgICAgICAgeyBuYW1lOiAn6ZW/5pyf6LaL5Yq/5YiG5p6QJywgaWNvbjogJ/Cfk4gnLCBmcmVlOiBmYWxzZSwgbW9uOiBmYWxzZSwgeXI6IHRydWUgfSxcbiAgICAgICAgICAgICAgICAgICAgeyBuYW1lOiAn5LyY5YWI5L2T6aqM5paw5Yqf6IO9JywgaWNvbjogJ/CfmoAnLCBmcmVlOiBmYWxzZSwgbW9uOiBmYWxzZSwgeXI6IHRydWUgfSxcbiAgICAgICAgICAgICAgICAgICAgeyBuYW1lOiAn5LiT5bGe5a6i5pyN5pSv5oyBJywgaWNvbjogJ/CfjqcnLCBmcmVlOiBmYWxzZSwgbW9uOiBmYWxzZSwgeXI6IHRydWUgfSxcbiAgICAgICAgICAgICAgICBdLm1hcCgocm93LCBpZHgpID0+IChcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2lkeH0gY2xhc3NOYW1lPVwiZ3JpZCBncmlkLWNvbHMtNCBnYXAtNCBweS00IGJvcmRlci1iIGJvcmRlci1ncmF5LTEwMCB0ZXh0LVsxNHB4XSB0ZXh0LWdyYXktNzAwIGl0ZW1zLWNlbnRlciBob3ZlcjpiZy1ncmF5LTUwIHRyYW5zaXRpb24tY29sb3JzXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1zcGFuLTEgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTJcIj48c3BhbiBjbGFzc05hbWU9XCJ0ZXh0LWxnIHctNiB0ZXh0LWNlbnRlclwiPntyb3cuaWNvbn08L3NwYW4+IHtyb3cubmFtZX08L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXIgZmxleCBqdXN0aWZ5LWNlbnRlclwiPntyb3cuZnJlZSA/IDxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPVwidy00IGgtNCB0ZXh0LVsjMjA4NzUyXVwiIC8+IDogPHNwYW4gY2xhc3NOYW1lPVwidGV4dC1ncmF5LTMwMFwiPuKAlDwvc3Bhbj59PC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyIGZsZXgganVzdGlmeS1jZW50ZXJcIj57cm93Lm1vbiA/IDxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPVwidy00IGgtNCB0ZXh0LVsjMjA4NzUyXVwiIC8+IDogPHNwYW4gY2xhc3NOYW1lPVwidGV4dC1ncmF5LTMwMFwiPuKAlDwvc3Bhbj59PC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyIGZsZXgganVzdGlmeS1jZW50ZXJcIj57cm93LnlyID8gPENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9XCJ3LTQgaC00IHRleHQtWyMyMDg3NTJdXCIgLz4gOiA8c3BhbiBjbGFzc05hbWU9XCJ0ZXh0LWdyYXktMzAwXCI+4oCUPC9zcGFuPn08L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgKSl9XG4gICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgey8qIFdoeSBVcGdyYWRlICovfVxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiZy13aGl0ZSBweS0yMFwiPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWF4LXctNnhsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LThcIj5cbiAgICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT1cInRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWdyYXktOTAwIG1iLTEwIHRyYWNraW5nLXRpZ2h0XCI+5Li65LuA5LmI5Y2H57qnIFByZW1pdW3vvJ88L2gyPlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImdyaWQgbWQ6Z3JpZC1jb2xzLTMgZ2FwLTZcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmctWyNmOGZiZjldIHJvdW5kZWQtWzJyZW1dIHAtOCBib3JkZXIgYm9yZGVyLWdyZWVuLTUwIHNoYWRvdy1zbSBmbGV4IGl0ZW1zLXN0YXJ0IGdhcC00XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3LTEyIGgtMTIgYmctd2hpdGUgcm91bmRlZC0yeGwgc2hhZG93LXNtIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHNocmluay0wIHRleHQtM3hsXCI+8J+kljwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9XCJmb250LWJvbGQgdGV4dC1ncmF5LTkwMCBtYi0yXCI+5pu06IGq5piO55qEIExpbHk8L2g0PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LVsxM3B4XSB0ZXh0LWdyYXktNTAwIGZvbnQtbWVkaXVtIGxlYWRpbmctcmVsYXhlZFwiPuS4jeWPquaYr+aPkOmGku+8jOiAjOaYr+eQhuino+S9oOavj+S4gOWkqeeahOeKtuaAgTwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiZy1bI2ZjZmRmZF0gcm91bmRlZC1bMnJlbV0gcC04IGJvcmRlciBib3JkZXItYmx1ZS01MCBzaGFkb3ctc20gZmxleCBpdGVtcy1zdGFydCBnYXAtNFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidy0xMiBoLTEyIGJnLXdoaXRlIHJvdW5kZWQtMnhsIHNoYWRvdy1zbSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBzaHJpbmstMCB0ZXh0LTN4bFwiPvCfk4o8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPVwiZm9udC1ib2xkIHRleHQtZ3JheS05MDAgbWItMlwiPuabtOa3seeahOWIhuaekDwvaDQ+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cInRleHQtWzEzcHhdIHRleHQtZ3JheS01MDAgZm9udC1tZWRpdW0gbGVhZGluZy1yZWxheGVkXCI+5LiN5Y+q5piv5pWw5a2X77yM6ICM5piv55+l6YGT5L2g6K+l5oCO5LmI6LCD5pW0PC9wPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJnLVsjZmRmZGZjXSByb3VuZGVkLVsycmVtXSBwLTggYm9yZGVyIGJvcmRlci1vcmFuZ2UtNTAgc2hhZG93LXNtIGZsZXggaXRlbXMtc3RhcnQgZ2FwLTRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInctMTIgaC0xMiBiZy13aGl0ZSByb3VuZGVkLTJ4bCBzaGFkb3ctc20gZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgc2hyaW5rLTAgdGV4dC0zeGxcIj7wn4yxPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGg0IGNsYXNzTmFtZT1cImZvbnQtYm9sZCB0ZXh0LWdyYXktOTAwIG1iLTJcIj7mm7TnqLPlrprnmoTmlLnlj5g8L2g0PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LVsxM3B4XSB0ZXh0LWdyYXktNTAwIGZvbnQtbWVkaXVtIGxlYWRpbmctcmVsYXhlZFwiPuS4jemdoOaEj+W/l+WKm++8jOiAjOaYr+mdoOiKguWlj++8jOWPmOaIkOabtOWlveeahOiHquW3sTwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICB7LyogRkFRICovfVxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYXgtdy00eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCBweS0yMFwiPlxuICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9XCJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1ncmF5LTkwMCBtYi0xMCB0cmFja2luZy10aWdodFwiPuW4uOingemXrumimDwvaDI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJncmlkIG1kOmdyaWQtY29scy0yIGdhcC14LTEyIGdhcC15LThcIj5cbiAgICAgICAgICAgICAgICAgICAge1tcbiAgICAgICAgICAgICAgICAgICAgICAgIHsgcTogXCLlv4Xpobvku5jotLnmiY3og73kvb/nlKjlkJfvvJ9cIiwgYTogXCLkuI3pnIDopoHjgILlhY3otLnniYjlt7Lnu4/lj6/ku6XmlK/mjIHkvaDlrozmiJDlpKfpg6jliIbnmoTlgaXlurfnrqHnkIbjgIJcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgeyBxOiBcIuS7gOS5iOaXtuWAmemcgOimgeWNh+e6p++8n1wiLCBhOiBcIuW9k+S9oOW4jOacm+abtOe7huiHtOWcsOS6huino+i6q+S9k+WPmOWMlu+8jOaIluaDs+imgeabtOS4quaAp+WMluW7uuiuruaXtuOAglwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICB7IHE6IFwi5Y+v5Lul6ZqP5pe25Y+W5raI5ZCX77yfXCIsIGE6IFwi5Y+v5Lul77yM6ZqP5pe25Y+W5raI77yM5rKh5pyJ5Lu75L2V6ZqQ6JeP6LS555So44CCXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIHsgcTogXCLmlbDmja7lronlhajlkJfvvJ9cIiwgYTogXCLmiYDmnInmlbDmja7lnYfliqDlr4blpITnkIbvvIzkuI3kvJrooqvnlKjkuo7ku7vkvZXllYbkuJrnlKjpgJTjgIJcIiB9LFxuICAgICAgICAgICAgICAgICAgICBdLm1hcCgoZmFxLCBpZHgpID0+IChcbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYga2V5PXtpZHh9IGNsYXNzTmFtZT1cImJvcmRlci1iIGJvcmRlci1ncmF5LTEwMCBwYi02XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGp1c3RpZnktYmV0d2VlbiBpdGVtcy1zdGFydCBnYXAtNCBtYi0yXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9XCJmb250LWJvbGQgdGV4dC1ncmF5LTkwMCB0ZXh0LVsxNXB4XSBsZWFkaW5nLXRpZ2h0XCI+e2ZhcS5xfTwvaDQ+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRleHQtZ3JheS00MDAgZm9udC1saWdodFwiPis8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1bMTMuNXB4XSB0ZXh0LWdyYXktNTAwIGZvbnQtbWVkaXVtIGxlYWRpbmctcmVsYXhlZCBwci02XCI+e2ZhcS5hfTwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICApKX1cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICB7LyogQm90dG9tIENUQSAqL31cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmctd2hpdGUgcHQtMTYgcGItMCBvdmVyZmxvdy1oaWRkZW4gcmVsYXRpdmUgYm9yZGVyLXQgYm9yZGVyLWdyYXktMTAwXCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYXgtdy02eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCBncmlkIG1kOmdyaWQtY29scy0yIGdhcC0xMiBpdGVtcy1jZW50ZXJcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9XCJ0ZXh0LVsycmVtXSBmb250LWJvbGQgdGV4dC1ncmF5LTkwMCBtYi0yIHRyYWNraW5nLXRpZ2h0IGxlYWRpbmctWzEuM10gbWF4LXctbWRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICDkvaDkuI3pnIDopoHkuIDkuIvlrZDmlLnlj5jlvojlpJo8YnIgLz7lj6ropoHlvIDlp4vvvIzlsLHlt7Lnu4/lvojlpb3kuoYgPEhlYXJ0SWNvbiBjbGFzc05hbWU9XCJ3LTUgaC01IGlubGluZS1ibG9jayB0ZXh0LVsjMjA4NzUyXSBtYi0xXCIgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvaDI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggZ2FwLTQgbXQtOFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxMaW5rIHRvPXthcHBMaW5rcy5kb3dubG9hZH0gY2xhc3NOYW1lPVwiYmctWyMyMDg3NTJdIHRleHQtd2hpdGUgcHgtOCBweS0zIHJvdW5kZWQtZnVsbCBmb250LWJvbGQgc2hhZG93LW1kIGhvdmVyOmJnLVsjMWE3MTQ0XSB0cmFuc2l0aW9uLWNvbG9yc1wiPuWFjei0ueW8gOWnizwvTGluaz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8TGluayB0bz17YXBwTGlua3MuYWlBc3Npc3RhbnR9IGNsYXNzTmFtZT1cImJnLXdoaXRlIGJvcmRlciBib3JkZXItZ3JheS0yMDAgdGV4dC1ncmF5LTgwMCBweC04IHB5LTMgcm91bmRlZC1mdWxsIGZvbnQtYm9sZCBzaGFkb3ctc20gaG92ZXI6YmctZ3JheS01MCB0cmFuc2l0aW9uLWNvbG9yc1wiPuWSjCBMaWx5IOiBiuiBijwvTGluaz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyZWxhdGl2ZSBoLVsyNTBweF0gZmxleCBpdGVtcy1lbmQganVzdGlmeS1lbmRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmctZ3JlZW4tNTAgcm91bmRlZC0yeGwgcC00IHByLTEyIGFic29sdXRlIGJvdHRvbS1bNDAlXSByaWdodC1bMzAlXSBzaGFkb3ctc20gei0xMCBoaWRkZW4gbGc6YmxvY2tcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtWzEzcHhdIGZvbnQtYm9sZCB0ZXh0LWdyYXktODAwIG1iLTFcIj7miJHkvJrkuIDnm7TlnKjkvaDouqvovrksPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LVsxM3B4XSBmb250LWJvbGQgdGV4dC1bIzIwODc1Ml1cIj7pmarkvaDmhaLmhaLlj5jlpb0g8J+NgzwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz17cHJpY2luZ0ltYWdlcy5jdGF9IGNsYXNzTmFtZT1cImgtWzI4MHB4XSB3LWZ1bGwgb2JqZWN0LWNvbnRhaW4gb2JqZWN0LXJpZ2h0LWJvdHRvbSB6LTAgYWJzb2x1dGUgYm90dG9tLVstMjBweF0gcmlnaHQtMFwiIC8+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICk7XG59O1xuXG5jb25zdCBIZWFydEljb24gPSAoeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgPT4gKFxuICAgIDxzdmcgdmlld0JveD1cIjAgMCAyNCAyNFwiIGZpbGw9XCJjdXJyZW50Q29sb3JcIiBjbGFzc05hbWU9e2NsYXNzTmFtZX0+XG4gICAgICAgIDxwYXRoIGQ9XCJNMTIgMjEuMzVsLTEuNDUtMS4zMkM1LjQgMTUuMzYgMiAxMi4yOCAyIDguNSAyIDUuNDIgNC40MiAzIDcuNSAzYzEuNzQgMCAzLjQxLjgxIDQuNSAyLjA5QzEzLjA5IDMuODEgMTQuNzYgMyAxNi41IDMgMTkuNTggMyAyMiA1LjQyIDIyIDguNWMwIDMuNzgtMy40IDYuODYtOC41NSAxMS41NEwxMiAyMS4zNXpcIiAvPlxuICAgIDwvc3ZnPlxuKVxuIl0sImZpbGUiOiJEOi8wd29ya3NwYWNlL3JlcG8vYmV0dGVybWUtbGFuZGluZ3BhZ2Uvc3JjL3BhZ2VzL1ByaWNpbmcudHN4In0=

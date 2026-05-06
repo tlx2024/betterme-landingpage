@@ -41,12 +41,12 @@ export const Hero = () => {
           WebkitMaskImage: 'linear-gradient(to left, black, transparent)'
         }}></div>
       </div>
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
-          
+
           {/* Text Content */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -56,17 +56,17 @@ export const Hero = () => {
               <span>✨</span>
               AI 健康减脂陪伴平台
             </div>
-            
+
             <h1 className="text-[2.5rem] sm:text-5xl lg:text-[4rem] font-bold text-slate-900 tracking-tight mb-4 leading-[1.15]">
               科学减脂，长期陪伴 <br />
               <GradientText>遇见更好的自己</GradientText>
             </h1>
-            
+
             <p className="text-base sm:text-lg text-slate-500 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               记录饮食、运动、体重，AI 智能分析<br className="hidden sm:block" />
               为你提供个性化建议，健康减脂不反弹
             </p>
-            
+
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-12">
               <PrimaryButton className="w-full sm:w-auto px-6 py-3.5 text-base shadow-teal-500/30">
                 免费开始减脂计划
@@ -76,7 +76,7 @@ export const Hero = () => {
                 <PlayCircle size={18} className="text-teal-500" />
               </Link>
             </div>
-            
+
             {/* Social Proof */}
             <div className="flex items-center justify-center lg:justify-start gap-4">
               <div className="flex -space-x-3">
@@ -92,9 +92,9 @@ export const Hero = () => {
               </p>
             </div>
           </motion.div>
-          
+
           {/* Mockup */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -104,22 +104,22 @@ export const Hero = () => {
             <div className="relative border-[10px] border-slate-900 rounded-[3rem] shadow-2xl shadow-slate-300/50 bg-[#f8fafc] overflow-hidden h-[700px]">
               {/* Notch */}
               <div className="absolute top-0 inset-x-0 h-6 flex justify-center z-20">
-                 <div className="w-32 h-6 bg-slate-900 rounded-b-[1rem]"></div>
+                <div className="w-32 h-6 bg-slate-900 rounded-b-[1rem]"></div>
               </div>
-              
+
               {/* Phone Header */}
               <div className="pt-10 px-5 pb-2 text-center text-slate-800 font-medium text-sm flex justify-between items-center bg-white z-10 relative">
                 <span className="text-xs font-semibold">9:41</span>
                 <div className="flex items-center gap-1">
                   <div className="w-4 h-2.5 outline outline-1 outline-slate-400 rounded-sm p-[1px] flex justify-end">
-                     <div className="w-2.5 h-full bg-slate-800 rounded-[1px]"></div>
+                    <div className="w-2.5 h-full bg-slate-800 rounded-[1px]"></div>
                   </div>
                 </div>
               </div>
 
               {/* App Content */}
               <div className="h-full px-4 pb-24 flex flex-col gap-3 overflow-y-auto no-scrollbar relative pt-2">
-                
+
                 {/* 今日总览 */}
                 <div className="bg-white p-4 rounded-2xl shadow-sm border border-slate-50">
                   <div className="flex justify-between items-center mb-3">
@@ -138,19 +138,19 @@ export const Hero = () => {
                       </svg>
                     </div>
                   </div>
-                  
+
                   <div className="grid grid-cols-3 gap-2 mt-4 text-center">
                     <div>
-                       <div className="text-[10px] text-slate-400">摄入</div>
-                       <div className="text-xs font-bold text-slate-800">1286 <span className="font-normal text-[8px] text-slate-400">千卡</span></div>
+                      <div className="text-[10px] text-slate-400">摄入</div>
+                      <div className="text-xs font-bold text-slate-800">1286 <span className="font-normal text-[8px] text-slate-400">千卡</span></div>
                     </div>
                     <div>
-                       <div className="text-[10px] text-slate-400">消耗</div>
-                       <div className="text-xs font-bold text-slate-800">1904 <span className="font-normal text-[8px] text-slate-400">千卡</span></div>
+                      <div className="text-[10px] text-slate-400">消耗</div>
+                      <div className="text-xs font-bold text-slate-800">1904 <span className="font-normal text-[8px] text-slate-400">千卡</span></div>
                     </div>
                     <div>
-                       <div className="text-[10px] text-slate-400">运动</div>
-                       <div className="text-xs font-bold text-slate-800">618 <span className="font-normal text-[8px] text-teal-500">超标</span></div>
+                      <div className="text-[10px] text-slate-400">运动</div>
+                      <div className="text-xs font-bold text-slate-800">618 <span className="font-normal text-[8px] text-teal-500">超标</span></div>
                     </div>
                   </div>
                 </div>
@@ -163,12 +163,12 @@ export const Hero = () => {
                       饮食记录
                     </div>
                     <div className="h-16 w-16 rounded-full overflow-hidden mb-2 shadow-sm">
-                       <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&h=200&fit=crop" className="w-full h-full object-cover" alt="food" />
+                      <img src="/media/scene-analysis.jpg" className="w-full h-full object-cover" alt="food" />
                     </div>
                     <div className="text-[10px] text-slate-400">早餐可乐饼等...</div>
                     <div className="text-sm font-bold text-slate-800">523 <span className="text-[9px] font-normal text-slate-400">千卡</span></div>
                   </div>
-                  
+
                   {/* 今天运动量 */}
                   <div className="bg-white p-3.5 rounded-2xl shadow-sm border border-slate-50 flex flex-col">
                     <div className="flex justify-between items-center mb-1">
@@ -179,9 +179,9 @@ export const Hero = () => {
                     </div>
                     <div className="text-xl font-bold text-slate-800 mb-2">8632<span className="text-[9px] font-normal text-slate-400">/10000</span></div>
                     <div className="flex items-end gap-[2px] h-12 flex-1 pt-1">
-                       {[30, 40, 30, 80, 50, 60, 100, 70, 40, 20].map((h, i) => (
-                         <div key={i} className={`flex-1 rounded-sm ${i === 6 ? 'bg-teal-400' : 'bg-slate-100'}`} style={{ height: `${h}%` }}></div>
-                       ))}
+                      {[30, 40, 30, 80, 50, 60, 100, 70, 40, 20].map((h, i) => (
+                        <div key={i} className={`flex-1 rounded-sm ${i === 6 ? 'bg-teal-400' : 'bg-slate-100'}`} style={{ height: `${h}%` }}></div>
+                      ))}
                     </div>
                   </div>
                 </div>
@@ -197,25 +197,25 @@ export const Hero = () => {
                   <div className="flex items-baseline gap-1 mb-2">
                     <span className="text-2xl font-bold text-slate-800">67.2</span>
                     <span className="text-xs text-slate-400">kg</span>
-                    <span className="text-[10px] text-teal-500 flex items-center ml-1"><TrendingDown size={10} className="mr-0.5"/>0.8 kg</span>
+                    <span className="text-[10px] text-teal-500 flex items-center ml-1"><TrendingDown size={10} className="mr-0.5" />0.8 kg</span>
                   </div>
                   <div className="h-16 w-full relative mt-2 pt-2">
-                     <svg viewBox="0 0 100 40" className="w-full h-full overflow-visible">
-                        <path d="M0,35 L20,30 L40,32 L60,15 L80,20 L100,5" fill="none" stroke="#60a5fa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                        <circle cx="0" cy="35" r="1.5" fill="#60a5fa" />
-                        <circle cx="60" cy="15" r="1.5" fill="#60a5fa" />
-                        <circle cx="100" cy="5" r="1.5" fill="#60a5fa" />
-                     </svg>
-                     <div className="absolute bottom-[-15px] w-full flex justify-between text-[7px] text-slate-300">
-                        <span>05/14</span>
-                        <span>05/15</span>
-                        <span>05/16</span>
-                        <span>今日</span>
-                     </div>
+                    <svg viewBox="0 0 100 40" className="w-full h-full overflow-visible">
+                      <path d="M0,35 L20,30 L40,32 L60,15 L80,20 L100,5" fill="none" stroke="#60a5fa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      <circle cx="0" cy="35" r="1.5" fill="#60a5fa" />
+                      <circle cx="60" cy="15" r="1.5" fill="#60a5fa" />
+                      <circle cx="100" cy="5" r="1.5" fill="#60a5fa" />
+                    </svg>
+                    <div className="absolute bottom-[-15px] w-full flex justify-between text-[7px] text-slate-300">
+                      <span>05/14</span>
+                      <span>05/15</span>
+                      <span>05/16</span>
+                      <span>今日</span>
+                    </div>
                   </div>
                 </div>
               </div>
-              
+
               {/* Bottom Nav Bar - iOS style */}
               <div className="absolute bottom-0 inset-x-0 h-[88px] bg-white/90 backdrop-blur-md border-t border-slate-100 flex justify-around items-start pt-3 px-6 pb-6 shadow-[0_-10px_20px_rgba(0,0,0,0.02)]">
                 <div className="flex flex-col items-center gap-1 opacity-50"><Apple size={20} className="stroke-[1.5]" /><span className="text-[9px]">饮食记录</span></div>
@@ -241,7 +241,7 @@ export const LogoCloud = () => {
         <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
           <div className="text-xl font-bold font-serif text-slate-800">36Kr</div>
           <div className="flex items-center gap-2"><div className="w-6 h-6 rounded-full bg-slate-800 text-white flex items-center justify-center text-xs font-bold">少</div><span className="font-bold text-slate-800">少数派</span></div>
-          <div className="text-xl font-bold tracking-tighter text-slate-800 flex items-center gap-1"><HeartPulse size={24}/>爱范儿</div>
+          <div className="text-xl font-bold tracking-tighter text-slate-800 flex items-center gap-1"><HeartPulse size={24} />爱范儿</div>
           <div className="text-xl font-black text-slate-800 italic">AppSo</div>
           <div className="text-lg font-bold text-slate-800">最美应用</div>
           <div className="text-xl font-bold text-red-500">小红书</div>
@@ -259,7 +259,7 @@ export const Features = () => {
       desc: "拍照识别食物，精准估算热量与营养",
       visual: (
         <div className="h-48 w-full bg-slate-100 rounded-t-2xl relative overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&h=400&fit=crop" className="w-full h-full object-cover" alt="Healthy bowl" />
+          <img src="/media/scene-meal-bowl.jpg" className="w-full h-full object-cover" alt="Healthy bowl" />
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur-md px-4 py-2 rounded-full text-xs font-medium text-slate-700 shadow-lg flex items-center gap-2">
             <ScanLine size={14} className="text-teal-500" />
             <span className="whitespace-nowrap">智能识别中... 虾仁沙拉 320大卡</span>
@@ -293,7 +293,7 @@ export const Features = () => {
       visual: (
         <div className="h-48 w-full bg-[#f8fafc] rounded-t-2xl p-4 flex flex-col justify-end gap-3 pb-6 relative overflow-hidden">
           <div className="w-[80%] bg-white p-3 rounded-2xl rounded-tl-sm text-xs text-slate-700 shadow-sm border border-slate-100 self-start">
-            今天的饮食搭配很棒！<br/>建议晚餐可以适当减少碳水摄入哦～
+            今天的饮食搭配很棒！<br />建议晚餐可以适当减少碳水摄入哦～
           </div>
           <div className="w-[70%] bg-[#0ea5e9] p-3 rounded-2xl rounded-tr-sm text-xs text-white self-end text-left shadow-sm">
             好的，晚餐吃什么比较好？
@@ -309,7 +309,7 @@ export const Features = () => {
       desc: "定制提醒计划，帮助你坚持下去",
       visual: (
         <div className="h-48 w-full bg-[#f8fafc] rounded-t-2xl p-4 flex flex-col gap-2.5 justify-center">
-          {[ 
+          {[
             { icon: Droplets, name: "喝水提醒", time: "08:00", active: true },
             { icon: Activity, name: "运动提醒", time: "18:30", active: true },
             { icon: BellRing, name: "睡眠提醒", time: "22:30", active: false }
@@ -349,7 +349,7 @@ export const Features = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, idx) => (
-            <motion.div 
+            <motion.div
               key={idx}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -392,41 +392,41 @@ export const Steps = () => {
 
         <div className="relative">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 relative z-10">
-             {steps.map((step, idx) => (
-                <div key={idx} className="relative flex flex-col items-center text-center group">
-                  {/* Arrow connector */}
-                  {idx < steps.length - 1 && (
-                    <div className="hidden lg:block absolute top-[40px] left-[60%] w-full">
-                       <svg width="100%" height="24" viewBox="0 0 100 24" preserveAspectRatio="none">
-                         <path d="M0,12 L80,12" fill="none" stroke="#e2e8f0" strokeWidth="2" strokeDasharray="4 4" />
-                         <polyline points="75,7 80,12 75,17" fill="none" stroke="#e2e8f0" strokeWidth="2" />
-                       </svg>
+            {steps.map((step, idx) => (
+              <div key={idx} className="relative flex flex-col items-center text-center group">
+                {/* Arrow connector */}
+                {idx < steps.length - 1 && (
+                  <div className="hidden lg:block absolute top-[40px] left-[60%] w-full">
+                    <svg width="100%" height="24" viewBox="0 0 100 24" preserveAspectRatio="none">
+                      <path d="M0,12 L80,12" fill="none" stroke="#e2e8f0" strokeWidth="2" strokeDasharray="4 4" />
+                      <polyline points="75,7 80,12 75,17" fill="none" stroke="#e2e8f0" strokeWidth="2" />
+                    </svg>
+                  </div>
+                )}
+
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: idx * 0.1 }}
+                  className="w-20 h-20 rounded-t-[24px] rounded-br-[24px] rounded-bl-[8px] bg-white border border-slate-50 shadow-xl shadow-slate-200/40 flex items-center justify-center mb-6 relative group-hover:scale-105 transition-transform duration-300"
+                >
+                  <step.icon size={28} className="text-[#14b8a6]" />
+                  {idx < 2 && (
+                    <div className="absolute -top-1 -right-1 w-5 h-5 bg-[#14b8a6] rounded-full border-[3px] border-white flex items-center justify-center">
+                      <span className="text-[10px] text-white font-bold">✓</span>
                     </div>
                   )}
-                  
-                  <motion.div 
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: idx * 0.1 }}
-                    className="w-20 h-20 rounded-t-[24px] rounded-br-[24px] rounded-bl-[8px] bg-white border border-slate-50 shadow-xl shadow-slate-200/40 flex items-center justify-center mb-6 relative group-hover:scale-105 transition-transform duration-300"
-                  >
-                     <step.icon size={28} className="text-[#14b8a6]" />
-                     {idx < 2 && (
-                       <div className="absolute -top-1 -right-1 w-5 h-5 bg-[#14b8a6] rounded-full border-[3px] border-white flex items-center justify-center">
-                         <span className="text-[10px] text-white font-bold">✓</span>
-                       </div>
-                     )}
-                     {idx >= 2 && (
-                       <div className="absolute -top-1 -right-1 w-5 h-5 bg-orange-400 rounded-full border-[3px] border-white flex items-center justify-center">
-                         <span className="text-[10px] text-white font-bold">✓</span>
-                       </div>
-                     )}
-                  </motion.div>
-                  <h3 className="text-lg font-bold text-slate-800 mb-2">{step.title}</h3>
-                  <p className="text-sm text-slate-500">{step.desc}</p>
-                </div>
-             ))}
+                  {idx >= 2 && (
+                    <div className="absolute -top-1 -right-1 w-5 h-5 bg-orange-400 rounded-full border-[3px] border-white flex items-center justify-center">
+                      <span className="text-[10px] text-white font-bold">✓</span>
+                    </div>
+                  )}
+                </motion.div>
+                <h3 className="text-lg font-bold text-slate-800 mb-2">{step.title}</h3>
+                <p className="text-sm text-slate-500">{step.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -451,9 +451,8 @@ export const DashboardMock = () => {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`pb-3 px-2 text-sm font-medium transition-colors relative ${
-                activeTab === tab ? 'text-teal-600' : 'text-slate-500 hover:text-slate-800'
-              }`}
+              className={`pb-3 px-2 text-sm font-medium transition-colors relative ${activeTab === tab ? 'text-teal-600' : 'text-slate-500 hover:text-slate-800'
+                }`}
             >
               {tab}
               {activeTab === tab && (
@@ -466,7 +465,7 @@ export const DashboardMock = () => {
           ))}
         </div>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -474,77 +473,77 @@ export const DashboardMock = () => {
           className="bg-white border border-slate-100 rounded-[2.5rem] p-6 md:p-8 shadow-xl shadow-slate-200/20"
         >
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            
+
             {/* Calories Trend */}
             <div className="bg-slate-50/50 rounded-2xl p-5 border border-slate-50">
-               <h3 className="text-sm font-bold text-slate-800 mb-1">热量趋势</h3>
-               <div className="text-[10px] text-slate-400 mb-3">日平均 <span className="text-lg font-bold text-slate-900 ml-1">1268 <span className="font-normal text-[10px]">kcal</span></span></div>
-               <div className="h-24 w-full relative pt-2">
-                 <svg viewBox="0 0 100 40" className="w-full h-full overflow-visible">
-                    <path d="M0,20 L20,30 L40,15 L60,25 L80,10 L100,5" fill="none" stroke="#14b8a6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    <circle cx="100" cy="5" r="2" fill="#14b8a6" />
-                 </svg>
-                 <div className="absolute left-0 inset-y-0 w-4 flex flex-col justify-between text-[7px] text-slate-300 py-1 font-mono">
-                   <span>50</span>
-                   <span>30</span>
-                   <span>0</span>
-                 </div>
-               </div>
+              <h3 className="text-sm font-bold text-slate-800 mb-1">热量趋势</h3>
+              <div className="text-[10px] text-slate-400 mb-3">日平均 <span className="text-lg font-bold text-slate-900 ml-1">1268 <span className="font-normal text-[10px]">kcal</span></span></div>
+              <div className="h-24 w-full relative pt-2">
+                <svg viewBox="0 0 100 40" className="w-full h-full overflow-visible">
+                  <path d="M0,20 L20,30 L40,15 L60,25 L80,10 L100,5" fill="none" stroke="#14b8a6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <circle cx="100" cy="5" r="2" fill="#14b8a6" />
+                </svg>
+                <div className="absolute left-0 inset-y-0 w-4 flex flex-col justify-between text-[7px] text-slate-300 py-1 font-mono">
+                  <span>50</span>
+                  <span>30</span>
+                  <span>0</span>
+                </div>
+              </div>
             </div>
 
             {/* Weight Change */}
             <div className="bg-slate-50/50 rounded-2xl p-5 border border-slate-50">
-               <h3 className="text-sm font-bold text-slate-800 mb-1">体重变化</h3>
-               <div className="text-[10px] text-slate-400 mb-3 flex items-center gap-2">
-                 <span className="text-lg font-bold text-slate-900">67.2 <span className="font-normal text-[10px]">kg</span></span>
-                 <span className="text-teal-500 font-medium flex items-center"><TrendingDown size={10} className="mr-0.5"/> 0.8 kg</span>
-               </div>
-               <div className="h-24 w-full relative pt-4">
-                 <svg viewBox="0 0 100 40" className="w-full h-full overflow-visible">
-                    <path d="M0,10 C20,12 40,30 60,25 C80,20 90,35 100,35" fill="none" stroke="#14b8a6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    {[0,20,40,60,80,100].map((x,i) => <circle key={i} cx={x} cy={i===0?10:i===1?12:i===2?30:i===3?25:i===4?28:35} r="1.5" fill="#14b8a6" />)}
-                 </svg>
-               </div>
+              <h3 className="text-sm font-bold text-slate-800 mb-1">体重变化</h3>
+              <div className="text-[10px] text-slate-400 mb-3 flex items-center gap-2">
+                <span className="text-lg font-bold text-slate-900">67.2 <span className="font-normal text-[10px]">kg</span></span>
+                <span className="text-teal-500 font-medium flex items-center"><TrendingDown size={10} className="mr-0.5" /> 0.8 kg</span>
+              </div>
+              <div className="h-24 w-full relative pt-4">
+                <svg viewBox="0 0 100 40" className="w-full h-full overflow-visible">
+                  <path d="M0,10 C20,12 40,30 60,25 C80,20 90,35 100,35" fill="none" stroke="#14b8a6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  {[0, 20, 40, 60, 80, 100].map((x, i) => <circle key={i} cx={x} cy={i === 0 ? 10 : i === 1 ? 12 : i === 2 ? 30 : i === 3 ? 25 : i === 4 ? 28 : 35} r="1.5" fill="#14b8a6" />)}
+                </svg>
+              </div>
             </div>
 
             {/* Steps */}
             <div className="bg-slate-50/50 rounded-2xl p-5 border border-slate-50">
-               <h3 className="text-sm font-bold text-slate-800 mb-1">步数</h3>
-               <div className="text-[10px] text-slate-400 mb-3"><span className="text-lg font-bold text-slate-900 mr-1">8,632</span>步</div>
-               <div className="h-24 w-full flex items-end justify-between gap-1 pt-2">
-                  {[40, 60, 30, 80, 50, 70, 100, 40].map((h, i) => (
-                    <div key={i} className="flex-1 bg-teal-400 rounded-sm opacity-80" style={{ height: `${h}%` }}></div>
-                  ))}
-               </div>
+              <h3 className="text-sm font-bold text-slate-800 mb-1">步数</h3>
+              <div className="text-[10px] text-slate-400 mb-3"><span className="text-lg font-bold text-slate-900 mr-1">8,632</span>步</div>
+              <div className="h-24 w-full flex items-end justify-between gap-1 pt-2">
+                {[40, 60, 30, 80, 50, 70, 100, 40].map((h, i) => (
+                  <div key={i} className="flex-1 bg-teal-400 rounded-sm opacity-80" style={{ height: `${h}%` }}></div>
+                ))}
+              </div>
             </div>
 
             {/* Nutrition Distribution */}
             <div className="bg-slate-50/50 rounded-2xl p-5 border border-slate-50 flex flex-col">
-               <h3 className="text-sm font-bold text-slate-800 mb-3">营养分布</h3>
-               <div className="flex-1 flex items-center justify-between gap-2">
-                  <div className="w-20 h-20 relative">
-                     <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
-                       <circle cx="50" cy="50" r="40" fill="none" stroke="#e2e8f0" strokeWidth="12" />
-                       <circle cx="50" cy="50" r="40" fill="none" stroke="#f59e0b" strokeWidth="12" strokeDasharray="251" strokeDashoffset="180" />
-                       <circle cx="50" cy="50" r="40" fill="none" stroke="#3b82f6" strokeWidth="12" strokeDasharray="251" strokeDashoffset="120" />
-                       <circle cx="50" cy="50" r="40" fill="none" stroke="#14b8a6" strokeWidth="12" strokeDasharray="251" strokeDashoffset="75" />
-                     </svg>
+              <h3 className="text-sm font-bold text-slate-800 mb-3">营养分布</h3>
+              <div className="flex-1 flex items-center justify-between gap-2">
+                <div className="w-20 h-20 relative">
+                  <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="#e2e8f0" strokeWidth="12" />
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="#f59e0b" strokeWidth="12" strokeDasharray="251" strokeDashoffset="180" />
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="#3b82f6" strokeWidth="12" strokeDasharray="251" strokeDashoffset="120" />
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="#14b8a6" strokeWidth="12" strokeDasharray="251" strokeDashoffset="75" />
+                  </svg>
+                </div>
+                <div className="flex flex-col gap-2 flex-1">
+                  <div className="flex justify-between items-center text-[10px]">
+                    <div className="flex items-center gap-1 text-slate-500"><div className="w-1.5 h-1.5 bg-teal-500 rounded-full"></div> 蛋白质</div>
+                    <div className="font-bold text-slate-800">28%</div>
                   </div>
-                  <div className="flex flex-col gap-2 flex-1">
-                     <div className="flex justify-between items-center text-[10px]">
-                        <div className="flex items-center gap-1 text-slate-500"><div className="w-1.5 h-1.5 bg-teal-500 rounded-full"></div> 蛋白质</div>
-                        <div className="font-bold text-slate-800">28%</div>
-                     </div>
-                     <div className="flex justify-between items-center text-[10px]">
-                        <div className="flex items-center gap-1 text-slate-500"><div className="w-1.5 h-1.5 bg-blue-500 rounded-full"></div> 脂肪</div>
-                        <div className="font-bold text-slate-800">32%</div>
-                     </div>
-                     <div className="flex justify-between items-center text-[10px]">
-                        <div className="flex items-center gap-1 text-slate-500"><div className="w-1.5 h-1.5 bg-amber-500 rounded-full"></div> 碳水</div>
-                        <div className="font-bold text-slate-800">40%</div>
-                     </div>
+                  <div className="flex justify-between items-center text-[10px]">
+                    <div className="flex items-center gap-1 text-slate-500"><div className="w-1.5 h-1.5 bg-blue-500 rounded-full"></div> 脂肪</div>
+                    <div className="font-bold text-slate-800">32%</div>
                   </div>
-               </div>
+                  <div className="flex justify-between items-center text-[10px]">
+                    <div className="flex items-center gap-1 text-slate-500"><div className="w-1.5 h-1.5 bg-amber-500 rounded-full"></div> 碳水</div>
+                    <div className="font-bold text-slate-800">40%</div>
+                  </div>
+                </div>
+              </div>
             </div>
 
           </div>
@@ -578,7 +577,7 @@ export const Testimonials = () => {
 
   return (
     <section className="py-24 bg-slate-50/50">
-       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
             真实用户的改变
@@ -589,39 +588,39 @@ export const Testimonials = () => {
         </div>
 
         <div className="relative">
-           <button className="hidden lg:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 w-10 h-10 bg-white rounded-full items-center justify-center shadow-md text-slate-400 hover:text-slate-800 z-10 transition-colors">
-              <ChevronLeft size={20} />
-           </button>
-           
-           <div className="grid md:grid-cols-3 gap-6">
-              {reviews.map((review, idx) => (
-                <motion.div 
-                  key={idx}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: idx * 0.1 }}
-                  className="bg-white rounded-[2rem] p-8 border border-slate-50 shadow-lg shadow-slate-200/40 relative"
-                >
-                  <div className="flex items-center gap-4 mb-5">
-                    <img src={review.avatar} alt={review.name} className="w-12 h-12 rounded-full border border-slate-100 object-cover" />
-                    <div>
-                      <h4 className="text-sm font-bold text-slate-800">@{review.name}</h4>
-                      <p className="text-[11px] text-slate-400">{review.intro}</p>
-                    </div>
-                  </div>
-                  <p className="text-sm text-slate-600 leading-relaxed font-medium">
-                    {review.content}
-                  </p>
-                </motion.div>
-              ))}
-           </div>
+          <button className="hidden lg:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 w-10 h-10 bg-white rounded-full items-center justify-center shadow-md text-slate-400 hover:text-slate-800 z-10 transition-colors">
+            <ChevronLeft size={20} />
+          </button>
 
-           <button className="hidden lg:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 w-10 h-10 bg-white rounded-full items-center justify-center shadow-md text-slate-400 hover:text-slate-800 z-10 transition-colors">
-              <ChevronRight size={20} />
-           </button>
+          <div className="grid md:grid-cols-3 gap-6">
+            {reviews.map((review, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: idx * 0.1 }}
+                className="bg-white rounded-[2rem] p-8 border border-slate-50 shadow-lg shadow-slate-200/40 relative"
+              >
+                <div className="flex items-center gap-4 mb-5">
+                  <img src={review.avatar} alt={review.name} className="w-12 h-12 rounded-full border border-slate-100 object-cover" />
+                  <div>
+                    <h4 className="text-sm font-bold text-slate-800">@{review.name}</h4>
+                    <p className="text-[11px] text-slate-400">{review.intro}</p>
+                  </div>
+                </div>
+                <p className="text-sm text-slate-600 leading-relaxed font-medium">
+                  {review.content}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+
+          <button className="hidden lg:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 w-10 h-10 bg-white rounded-full items-center justify-center shadow-md text-slate-400 hover:text-slate-800 z-10 transition-colors">
+            <ChevronRight size={20} />
+          </button>
         </div>
-        
+
         <div className="flex justify-center gap-2 mt-8">
           <div className="w-2 h-2 rounded-full bg-teal-500"></div>
           <div className="w-2 h-2 rounded-full bg-slate-200 cursor-pointer hover:bg-slate-300"></div>
@@ -638,58 +637,58 @@ export const BottomCTA = () => {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-br from-teal-800 to-cyan-900 rounded-[3rem] overflow-hidden relative shadow-2xl">
-           {/* Decor */}
-           <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-teal-500/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
-           
-           <div className="grid lg:grid-cols-2 items-center">
-             <div className="p-12 lg:p-20 relative z-10 text-center lg:text-left">
-               <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-                 开始你的健康减脂之旅
-               </h2>
-               <p className="text-teal-100 text-lg mb-10">
-                 加入 BetterMe，遇见更好的自己
-               </p>
-               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                 <button className="bg-white text-teal-800 px-8 py-4 rounded-full font-bold text-lg hover:bg-teal-50 transition-colors shadow-lg shadow-black/10">
-                    免费开始
-                 </button>
-              <Link to="/features" className="border border-teal-500/30 text-white hover:bg-teal-800/50 px-8 py-4 rounded-full font-medium text-lg transition-colors flex justify-center">
-                 了解更多
-              </Link>
-               </div>
-             </div>
-             
-             <div className="hidden lg:flex relative h-full min-h-[400px] justify-center items-end pb-8">
-                {/* CSS Mock App 1 (Back) */}
-                <div className="absolute right-32 bottom-[-10px] w-[260px] h-[520px] bg-white rounded-[2.5rem] border-[10px] border-slate-900 shadow-2xl -rotate-6 flex flex-col justify-between p-5 overflow-hidden z-0">
-                   {/* Notch */}
-                   <div className="absolute top-0 inset-x-0 h-5 flex justify-center z-20">
-                      <div className="w-24 h-5 bg-slate-900 rounded-b-xl"></div>
-                   </div>
-                   <div className="w-full flex justify-between gap-3 mb-4 mt-6">
-                      <div className="h-24 flex-1 bg-slate-100 rounded-2xl"></div>
-                      <div className="h-24 flex-1 bg-slate-100 rounded-2xl"></div>
-                   </div>
-                   <div className="w-full h-40 bg-slate-50 rounded-2xl mb-4"></div>
-                   <div className="w-full h-48 bg-[#14b8a6] rounded-2xl"></div>
-                </div>
+          {/* Decor */}
+          <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-teal-500/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
 
-                {/* CSS Mock App 2 (Front) */}
-                <div className="absolute right-4 bottom-[-40px] w-[260px] h-[520px] bg-slate-900 rounded-[2.5rem] border-[10px] border-white/20 shadow-2xl rotate-6 flex flex-col p-5 overflow-hidden z-10 backdrop-blur-sm shadow-black/40 text-white">
-                    {/* Notch */}
-                   <div className="absolute top-0 inset-x-0 h-5 flex justify-center z-20">
-                      <div className="w-24 h-5 bg-white/20 rounded-b-xl backdrop-blur-sm"></div>
-                   </div>
-                   <div className="w-full h-28 bg-slate-800 rounded-2xl mb-4 mt-6"></div>
-                   <div className="w-full h-36 bg-[#14b8a6] rounded-2xl mb-4 opacity-90"></div>
-                   <div className="w-full flex justify-between gap-3">
-                       <div className="h-28 w-16 bg-slate-800 rounded-xl"></div>
-                       <div className="h-28 w-16 bg-teal-500 rounded-xl"></div>
-                       <div className="h-28 w-16 bg-slate-800 rounded-xl"></div>
-                   </div>
+          <div className="grid lg:grid-cols-2 items-center">
+            <div className="p-12 lg:p-20 relative z-10 text-center lg:text-left">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
+                开始你的健康减脂之旅
+              </h2>
+              <p className="text-teal-100 text-lg mb-10">
+                加入 BetterMe，遇见更好的自己
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <button className="bg-white text-teal-800 px-8 py-4 rounded-full font-bold text-lg hover:bg-teal-50 transition-colors shadow-lg shadow-black/10">
+                  免费开始
+                </button>
+                <Link to="/features" className="border border-teal-500/30 text-white hover:bg-teal-800/50 px-8 py-4 rounded-full font-medium text-lg transition-colors flex justify-center">
+                  了解更多
+                </Link>
+              </div>
+            </div>
+
+            <div className="hidden lg:flex relative h-full min-h-[400px] justify-center items-end pb-8">
+              {/* CSS Mock App 1 (Back) */}
+              <div className="absolute right-32 bottom-[-10px] w-[260px] h-[520px] bg-white rounded-[2.5rem] border-[10px] border-slate-900 shadow-2xl -rotate-6 flex flex-col justify-between p-5 overflow-hidden z-0">
+                {/* Notch */}
+                <div className="absolute top-0 inset-x-0 h-5 flex justify-center z-20">
+                  <div className="w-24 h-5 bg-slate-900 rounded-b-xl"></div>
                 </div>
-             </div>
-           </div>
+                <div className="w-full flex justify-between gap-3 mb-4 mt-6">
+                  <div className="h-24 flex-1 bg-slate-100 rounded-2xl"></div>
+                  <div className="h-24 flex-1 bg-slate-100 rounded-2xl"></div>
+                </div>
+                <div className="w-full h-40 bg-slate-50 rounded-2xl mb-4"></div>
+                <div className="w-full h-48 bg-[#14b8a6] rounded-2xl"></div>
+              </div>
+
+              {/* CSS Mock App 2 (Front) */}
+              <div className="absolute right-4 bottom-[-40px] w-[260px] h-[520px] bg-slate-900 rounded-[2.5rem] border-[10px] border-white/20 shadow-2xl rotate-6 flex flex-col p-5 overflow-hidden z-10 backdrop-blur-sm shadow-black/40 text-white">
+                {/* Notch */}
+                <div className="absolute top-0 inset-x-0 h-5 flex justify-center z-20">
+                  <div className="w-24 h-5 bg-white/20 rounded-b-xl backdrop-blur-sm"></div>
+                </div>
+                <div className="w-full h-28 bg-slate-800 rounded-2xl mb-4 mt-6"></div>
+                <div className="w-full h-36 bg-[#14b8a6] rounded-2xl mb-4 opacity-90"></div>
+                <div className="w-full flex justify-between gap-3">
+                  <div className="h-28 w-16 bg-slate-800 rounded-xl"></div>
+                  <div className="h-28 w-16 bg-teal-500 rounded-xl"></div>
+                  <div className="h-28 w-16 bg-slate-800 rounded-xl"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
